@@ -1,0 +1,2573 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home Page</title>
+<style id="applicationStylesheet" type="text/css">
+	
+	:root {
+		--web-view-ids: Home_Page;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Home_Page {
+		position: absolute;
+		width: 1366px;
+		height: 2298px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: Home Page;
+		--web-view-id: Home_Page;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+
+	.nav{
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: space-between;
+ 	padding: 70px ;
+ 	padding-left: 850px;
+ 	width: 1366px;
+ 
+    
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(255,165,0,1);
+   
+  
+
+ }
+ 
+
+ .nav ul{
+ 	display: flex;
+ 	position: relative;
+
+ 	
+ }
+ .nav ul li{
+ 	list-style: none;
+ }
+ .nav ul li a{
+ 	display: inline-block;
+ 	color: #333;
+ 	font-weight: 400;
+ 	margin-left: 40px;
+ 	text-decoration: none;
+
+ 	
+
+ 	
+ }
+ .nav ul li a:hover{
+ 	background: rgba(0,46,132,1);
+ 	color: #fff;
+ 	border: 2px solid;
+ 	padding: 0px 22px;
+ 	margin: 8px;
+  
+ 	box-shadow: 5px 10px 30px rgba(90,118,253,0.5);
+ 	
+ }
+ .nav ul li a.aa:link{
+ 	background: orange;
+
+
+ }
+
+	#road_to_japna {
+		position: absolute;
+		width: 618px;
+		height: 339px;
+		left: 139px;
+		top: 777px;
+		overflow: visible;
+	}
+	#kisspng-hokkaidu014d-shrine-ko {
+		position: absolute;
+		width: 170px;
+		height: 170px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Road_To_Japan__________ {
+		left: 0px;
+		top: 170px;
+		position: absolute;
+		overflow: visible;
+		width: 619px;
+		height: 169px;
+		text-align: left;
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(0,46,132,1);
+	}
+	#main_page {
+		position: absolute;
+		width: 1366px;
+		height: 768px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		transition: all 1s ease-out;
+		--web-animation: fadein 1s ease-out;
+		--web-action-type: page;
+		--web-action-target: media.html;
+		cursor: pointer;
+	}
+	#road_to_japan_fix {
+		position: absolute;
+		width: 170px;
+		height: 170px;
+		left: 104px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_17 {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_17 {
+		position: absolute;
+		overflow: visible;
+		width: 841px;
+		height: 64px;
+		left: 494px;
+		top: 670px;
+	}
+	#Rectangle_69 {
+		fill: rgba(0,46,132,1);
+	}
+	.Rectangle_69 {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 684px;
+		height: 633px;
+		left: 700px;
+		top: 128px;
+	}
+	#It___ {
+		left: 967px;
+		top: 371.5px;
+		position: absolute;
+		overflow: visible;
+		width: 128px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 30px;
+		color: rgba(255,255,255,1);
+		text-transform: uppercase;
+	}
+	#Path_23 {
+		fill: rgba(230,240,249,1);
+	}
+	.Path_23 {
+		overflow: visible;
+		position: absolute;
+		width: 862.332px;
+		height: 615px;
+		left: 0px;
+		top: 128px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#favpng_distance-education-e-le {
+		position: absolute;
+		width: 520px;
+		height: 520px;
+		left: 171px;
+		top: 176px;
+		overflow: visible;
+	}
+	#navigation {
+		position: absolute;
+		width: 74px;
+		height: 25px;
+		left: 646px;
+		top: 743px;
+		overflow: visible;
+	}
+	#Ellipse_1 {
+		fill: rgba(8,24,34,1);
+	}
+	.Ellipse_1 {
+		position: absolute;
+		overflow: visible;
+		width: 24px;
+		height: 25px;
+		left: 0px;
+		top: 0px;
+	}
+	#Ellipse_2 {
+		fill: rgba(8,24,34,1);
+	}
+	.Ellipse_2 {
+		position: absolute;
+		overflow: visible;
+		width: 16px;
+		height: 17px;
+		left: 33px;
+		top: 4px;
+	}
+	#Ellipse_3 {
+		fill: rgba(8,24,34,1);
+	}
+	.Ellipse_3 {
+		position: absolute;
+		overflow: visible;
+		width: 16px;
+		height: 17px;
+		left: 58px;
+		top: 4px;
+	}
+	#learn_IT_for_future {
+		left: 967px;
+		top: 442px;
+		position: absolute;
+		overflow: visible;
+		width: 149px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(204,212,220,1);
+	}
+	#shape {
+		position: absolute;
+		width: 71px;
+		height: 356px;
+		left: 631px;
+		top: 229px;
+		overflow: visible;
+	}
+	#Polygon_2 {
+		fill: rgba(255,165,0,1);
+	}
+	.Polygon_2 {
+		overflow: visible;
+		position: absolute;
+		width: 52px;
+		height: 42px;
+		left: 0px;
+		top: 264px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Polygon_3 {
+		fill: rgba(255,165,0,1);
+		stroke: rgba(255,165,0,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Polygon_3 {
+		overflow: visible;
+		position: absolute;
+		width: 52px;
+		height: 50px;
+		transform: translate(0px, 0px) matrix(1,0,0,1,0,306) rotate(180deg);
+		transform-origin: center;
+		left: 0px;
+		top: 0px;
+	}
+	#Ellipse_11 {
+		fill: rgba(255,165,0,1);
+	}
+	.Ellipse_11 {
+		position: absolute;
+		overflow: visible;
+		width: 50px;
+		height: 46px;
+		left: 21px;
+		top: 0px;
+	}
+#botton {
+		position: absolute;
+		width: 143.168px;
+		height: 67.207px;
+		left: 830.832px;
+		top: 1011px;
+		overflow: visible;
+	}
+	
+	#Path_43 {
+		fill: rgba(0,46,132,1);
+	}
+	.Path_43 {
+		filter: drop-shadow(20px 20px 12px rgba(0, 0, 0, 0.161));
+		overflow: visible;
+		position: absolute;
+		width: 120.168px;
+		height: 100.207px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#_dk {
+		left: 25px;
+		top: 40px;
+		position: absolute;
+		overflow: visible;
+		width: 36px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 0.1px;
+	}
+	#botton_dl {
+		position: absolute;
+		width: 90.168px;
+		height: 43.207px;
+		left: 170px;
+		top: 1960px;
+		overflow: visible;
+		--web-animation: fadein 1s ease-out;
+		--web-action-type: page;
+		--web-action-target: About.html;
+		cursor: pointer;
+	}
+	#Path_24_dm {
+		fill: rgba(0,46,132,1);
+	}
+	.Path_24_dm {
+		filter: drop-shadow(20px 20px 12px rgba(0, 0, 0, 0.161));
+		overflow: visible;
+		position: absolute;
+		width: 130.168px;
+		height: 100.207px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+		--web-animation: fadein 1s ease-out;
+		--web-action-type: page;
+		--web-action-target: About.html;
+		cursor: pointer;
+	}
+	#_dn {
+		left: 30px;
+		top: 40px;
+		position: absolute;
+		overflow: visible;
+		width: 36px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		color: black;
+		letter-spacing: 0.1px;
+	}
+	#activities {
+		position: absolute;
+		width: 1366px;
+		height: 490.001px;
+		left: 0px;
+		top: 1164.999px;
+		overflow: visible;
+		background:rgba(215,235,254,1);
+	}
+	#Activity {
+		position: absolute;
+		width: 1366px;
+		height: 314.001px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: Activity.html;
+		cursor: pointer;
+		background:rgba(215,235,254,1);
+
+	}
+	#Path_2 {
+		fill: rgba(215,235,254,1);
+	}
+	.Path_2 {
+		filter: drop-shadow(20px 20px 50px rgba(0, 0, 0, 0.161));
+		overflow: visible;
+		position: absolute;
+		width: 1366px;
+		height: 500.001px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#ID2019program_ds {
+		fill: url(#ID2019program_ds);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.ID2019program_ds {
+		overflow: visible;
+		position: absolute;
+		width: 296.067px;
+		height: 1px;
+		left: 100.933px;
+		top: 416.352px;
+		transform: matrix(1,0,0,1,0,0);
+		background:rgba(215,235,254,1);
+
+	}
+	#group {
+		filter: drop-shadow(20px 20px 50px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		width: 375px;
+		height: 260px;
+		left: 122px;
+		top: 110.001px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: Activity.html;
+		cursor: pointer;
+		margin-right: 100px;
+
+	}
+	#Path_1_dv {
+		opacity: 0.8;
+		fill: url(#Path_1_dv);
+	}
+	.Path_1_dv {
+		overflow: visible;
+		position: absolute;
+		width: 356.467px;
+		height: 86.346px;
+		left: 234.533px;
+		top: 330.219px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#ID2019_Road_to_Japan_ {
+		left: 145px;
+		top: 420.001px;
+		position: absolute;
+		overflow: visible;
+		width: 316px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(0,46,132,1);
+	}
+	#Activity_dx {
+		position: absolute;
+		width: 352.308px;
+		height: 302.667px;
+		left: 650px;
+		top: 70.334px;
+
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: Coming_Soon.html;
+		cursor: pointer;
+	}
+	#Group_Photo {
+		filter: drop-shadow(20px 20px 50px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		width: 352.308px;
+		height: 264.303px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+
+	}
+	#Path_1_d {
+		opacity: 0.8;
+		fill: url(#Path_1_d);
+	}
+	.Path_1_d {
+		overflow: visible;
+		position: absolute;
+		width: 352.308px;
+		height: 69.87px;
+		left: 0px;
+		top: 194.492px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#ID2020_Road_to_Japan_ {
+		left: 46.734px;
+		top: 350.667px;
+		position: absolute;
+		overflow: visible;
+		width: 288px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(0,46,132,1);
+	}
+	#shape_d {
+		position: absolute;
+		width: 177px;
+		height: 356px;
+		left: 1090px;
+		top: 103.001px;
+		overflow: visible;
+	}
+	#Polygon_2_d {
+		fill: rgba(255,165,0,1);
+	}
+	.Polygon_2_d {
+		overflow: visible;
+		position: absolute;
+		width: 52px;
+		height: 42px;
+		left: 0px;
+		top: 264px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Polygon_3_d {
+		fill: rgba(255,165,0,1);
+		stroke: rgba(255,165,0,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Polygon_3_d {
+		overflow: visible;
+		position: absolute;
+		width: 52px;
+		height: 50px;
+		transform: translate(-631.168px, -229px) matrix(1,0,0,1,631.1685,535) rotate(180deg);
+		transform-origin: center;
+		left: 0px;
+		top: 0px;
+	}
+	#Ellipse_11_d {
+		fill: rgba(255,165,0,1);
+	}
+	.Ellipse_11_d {
+		position: absolute;
+		overflow: visible;
+		width: 50px;
+		height: 46px;
+		left: 127px;
+		top: 0px;
+	}
+	#activity {
+		position: absolute;
+		width: 368px;
+		height: 40px;
+		left: 139px;
+		top: 30.001px;
+		overflow: visible;
+	}
+	#Path_45 {
+		fill: rgba(0,46,132,1);
+	}
+	.Path_45 {
+		filter: drop-shadow(20px 20px 6px rgba(0, 0, 0, 0.161));
+		overflow: visible;
+		position: absolute;
+		width: 350px;
+		height: 69px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#_d {
+		left: 86px;
+		top: 15px;
+		position: absolute;
+		overflow: visible;
+		width: 244px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Open Sans;
+		font-style: normal;
+		
+		font-size: 25px;
+		color: rgba(250,250,250,1);
+	}
+	#mission_d {
+		position: absolute;
+		width: 368px;
+		height: 40px;
+		left: 139px;
+		top: 1670px;
+		overflow: visible;
+	}
+	#activity_ea {
+		position: absolute;
+		width: 368px;
+		height: 40px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Path_45_eb {
+		fill: rgba(0,46,132,1);
+	}
+	.Path_45_eb {
+		filter: drop-shadow(20px 20px 6px rgba(0, 0, 0, 0.161));
+		overflow: visible;
+		position: absolute;
+		width: 397px;
+		height: 69px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#_ec {
+		left: 99px;
+		top: 16px;
+		position: absolute;
+		overflow: visible;
+		width: 171px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+	}
+	
+	#tool_bar {
+		position: absolute;
+		width: 1366px;
+		height: 42px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_2 {
+		fill: rgba(0,46,132,1);
+	}
+	.Rectangle_2 {
+		position: absolute;
+		overflow: visible;
+		width: 1366px;
+		height: 42px;
+		left: 0px;
+		top: 0px;
+	}
+	#Road_to_Japan {
+		left: 139px;
+		top: 8px;
+		position: absolute;
+		overflow: visible;
+		width: 151px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+		text-transform: uppercase;
+	}
+	#myanmar-flag-icon-256 {
+		position: absolute;
+		width: 36px;
+		height: 25px;
+		left: 1171px;
+		top: 9px;
+		overflow: visible;
+	}
+		#mission {
+		position: absolute;
+		width: 374px;
+		height: 242.043px;
+		left: 967px;
+		top: 1737px;
+		overflow: visible;
+
+	}
+	#Group_628 {
+		position: absolute;
+		width: 90.59px;
+		height: 82.764px;
+		left: 283.41px;
+		top: 87.204px;
+		overflow: visible;
+	}
+	#Rectangle_556 {
+		opacity: 0.8;
+		fill: rgba(0,102,179,1);
+	}
+	.Rectangle_556 {
+		position: absolute;
+		overflow: visible;
+		width: 11.012px;
+		height: 27.894px;
+		left: 0px;
+		top: 54.81px;
+	}
+	#Rectangle_557 {
+		opacity: 0.8;
+		fill: rgba(0,102,179,1);
+	}
+	.Rectangle_557 {
+		position: absolute;
+		overflow: visible;
+		width: 11.012px;
+		height: 37.007px;
+		left: 15.893px;
+		top: 45.757px;
+	}
+	#Rectangle_558 {
+		opacity: 0.8;
+		fill: rgba(0,102,179,1);
+	}
+	.Rectangle_558 {
+		position: absolute;
+		overflow: visible;
+		width: 11.012px;
+		height: 37.007px;
+		left: 63.687px;
+		top: 45.757px;
+	}
+	#Rectangle_559 {
+		opacity: 0.8;
+		fill: rgba(0,102,179,1);
+	}
+	.Rectangle_559 {
+		position: absolute;
+		overflow: visible;
+		width: 11.012px;
+		height: 72.426px;
+		left: 31.842px;
+		top: 10.278px;
+	}
+	#Rectangle_560 {
+		opacity: 0.8;
+		fill: rgba(0,102,179,1);
+	}
+	.Rectangle_560 {
+		position: absolute;
+		overflow: visible;
+		width: 11.012px;
+		height: 57.684px;
+		left: 47.736px;
+		top: 25.02px;
+	}
+	#Rectangle_561 {
+		opacity: 0.8;
+		fill: rgba(0,102,179,1);
+	}
+	.Rectangle_561 {
+		position: absolute;
+		overflow: visible;
+		width: 11.012px;
+		height: 82.702px;
+		left: 79.578px;
+		top: 0px;
+	}
+	#Ellipse_133 {
+		fill: rgba(242,242,242,1);
+	}
+	.Ellipse_133 {
+		position: absolute;
+		overflow: visible;
+		width: 250.319px;
+		height: 222.571px;
+		left: 0px;
+		top: 0px;
+	}
+	#Ellipse_134 {
+		fill: rgba(215,24,42,1);
+	}
+	.Ellipse_134 {
+		filter: drop-shadow(20px 20px 6px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 262.29px;
+		height: 233.22px;
+		left: 8.514px;
+		top: 9.176px;
+	}
+	#Ellipse_135 {
+		fill: rgba(242,242,242,1);
+	}
+	.Ellipse_135 {
+		position: absolute;
+		overflow: visible;
+		width: 163.928px;
+		height: 176.66px;
+		left: 43.195px;
+		top: 27.037px;
+	}
+	#Ellipse_136 {
+		fill: rgba(215,24,42,1);
+	}
+	.Ellipse_136 {
+		position: absolute;
+		overflow: visible;
+		width: 115.68px;
+		height: 124.665px;
+		left: 67.319px;
+		top: 51.744px;
+	}
+	#Ellipse_137 {
+		fill: rgba(246,244,244,1);
+	}
+	.Ellipse_137 {
+		width: 55.171px;
+		height: 59.456px;
+		position: absolute;
+		overflow: visible;
+		transform: translate(-966.737px, -157.232px) matrix(1,0,0,1,1064.3089,240.7874) rotate(1deg);
+		transform-origin: center;
+	}
+	#Path_789 {
+		fill: rgba(156,161,160,1);
+	}
+	.Path_789 {
+		overflow: visible;
+		position: absolute;
+		width: 182.424px;
+		height: 119.066px;
+		left: 123.294px;
+		top: 17.896px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_790 {
+		fill: rgba(222,226,226,1);
+	}
+	.Path_790 {
+		overflow: visible;
+		position: absolute;
+		width: 165.556px;
+		height: 116.617px;
+		left: 123.294px;
+		top: 17.896px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_791 {
+		opacity: 0.16;
+		fill: rgba(62,57,53,1);
+	}
+	.Path_791 {
+		overflow: visible;
+		position: absolute;
+		width: 118.574px;
+		height: 6.731px;
+		left: 123.286px;
+		top: 108.475px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_795 {
+		fill: rgba(18,162,176,1);
+	}
+	.Path_795 {
+		overflow: visible;
+		position: absolute;
+		width: 31.488px;
+		height: 37.015px;
+		left: 250.317px;
+		top: 166.088px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_796 {
+		fill: rgba(22,176,191,1);
+	}
+	.Path_796 {
+		overflow: visible;
+		position: absolute;
+		width: 54.035px;
+		height: 66.146px;
+		left: 216.153px;
+		top: 175.897px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_797 {
+		fill: rgba(242,242,242,1);
+	}
+	.Path_797 {
+		overflow: visible;
+		position: absolute;
+		width: 95.044px;
+		height: 102.422px;
+		left: 251.695px;
+		top: 93.921px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ellipse_138 {
+		opacity: 0.3;
+		fill: rgba(255,255,255,1);
+	}
+	.Ellipse_138 {
+		overflow: visible;
+		position: absolute;
+		width: 70.827px;
+		height: 74.752px;
+		transform: translate(-966.737px, -157.232px) matrix(1.0002,0,0,1.0002,1230.5144,265.191) rotate(-21.897deg);
+		transform-origin: center;
+		left: 0px;
+		top: 0px;
+	}
+	#Path_798 {
+		opacity: 0.3;
+		fill: rgba(194,193,193,1);
+	}
+	.Path_798 {
+		overflow: visible;
+		position: absolute;
+		width: 67.944px;
+		height: 32.341px;
+		left: 266.097px;
+		top: 113.411px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#_____________________ {
+		left: 156.343px;
+		top: 1760px;
+		position: absolute;
+		overflow: visible;
+		width: 419px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,46,132,1);
+	}
+	#paper {
+		position: absolute;
+		width: 132.447px;
+		height: 146.266px;
+		left: 802px;
+		top: 1670px;
+		overflow: visible;
+	}
+	#Path_786 {
+		fill: rgba(242,242,242,1);
+	}
+	.Path_786 {
+		overflow: visible;
+		position: absolute;
+		width: 132.447px;
+		height: 146.266px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Rectangle_562 {
+		fill: rgba(34,31,31,1);
+	}
+	.Rectangle_562 {
+		width: 68.499px;
+		height: 1.18px;
+		position: absolute;
+		overflow: visible;
+		transform: translate(0px, 0px) matrix(1,0,0,1,14.1882,29.2632) rotate(-23.591deg);
+		transform-origin: center;
+	}
+	#Rectangle_563 {
+		fill: rgba(34,31,31,1);
+	}
+	.Rectangle_563 {
+		width: 47.68px;
+		height: 0.898px;
+		position: absolute;
+		overflow: visible;
+		transform: translate(0px, 0px) matrix(1,0,0,1,17.2479,38.5022) rotate(-23.591deg);
+		transform-origin: center;
+	}
+	#Rectangle_564 {
+		fill: rgba(34,31,31,1);
+	}
+	.Rectangle_564 {
+		width: 47.68px;
+		height: 0.992px;
+		position: absolute;
+		overflow: visible;
+		transform: translate(0px, 0px) matrix(1,0,0,1,19.4712,43.6091) rotate(-23.591deg);
+		transform-origin: center;
+	}
+	#Rectangle_565 {
+		fill: rgba(34,31,31,1);
+	}
+	.Rectangle_565 {
+		width: 64.91px;
+		height: 1.085px;
+		position: absolute;
+		overflow: visible;
+		transform: translate(0px, 0px) matrix(1,0,0,1,21.0935,45.4977) rotate(-23.591deg);
+		transform-origin: center;
+	}
+	#Rectangle_566 {
+		fill: rgba(34,31,31,1);
+	}
+	.Rectangle_566 {
+		width: 42.016px;
+		height: 0.849px;
+		position: absolute;
+		overflow: visible;
+		transform: translate(0px, 0px) matrix(1,0,0,1,24.2926,55.3129) rotate(-23.591deg);
+		transform-origin: center;
+	}
+	#Rectangle_567 {
+		fill: rgba(34,31,31,1);
+	}
+	.Rectangle_567 {
+		width: 55.234px;
+		height: 0.992px;
+		position: absolute;
+		overflow: visible;
+		transform: translate(0px, 0px) matrix(1,0,0,1,25.7949,57.3542) rotate(-23.591deg);
+		transform-origin: center;
+	}
+	#Rectangle_568 {
+		fill: rgba(34,31,31,1);
+	}
+	.Rectangle_568 {
+		width: 62.786px;
+		height: 0.992px;
+		position: absolute;
+		overflow: visible;
+		transform: translate(0px, 0px) matrix(1,0,0,1,27.4991,60.4175) rotate(-23.591deg);
+		transform-origin: center;
+	}
+	#Rectangle_569 {
+		fill: rgba(34,31,31,1);
+	}
+	.Rectangle_569 {
+		width: 49.049px;
+		height: 1.039px;
+		position: absolute;
+		overflow: visible;
+		transform: translate(0px, 0px) matrix(1,0,0,1,30.0574,67.691) rotate(-23.591deg);
+		transform-origin: center;
+	}
+	#Rectangle_570 {
+		fill: rgba(34,31,31,1);
+	}
+	.Rectangle_570 {
+		width: 60.284px;
+		height: 0.944px;
+		position: absolute;
+		overflow: visible;
+		transform: translate(0px, 0px) matrix(1,0,0,1,31.6167,70.0863) rotate(-23.591deg);
+		transform-origin: center;
+	}
+	#Rectangle_571 {
+		fill: rgba(34,31,31,1);
+	}
+	.Rectangle_571 {
+		width: 64.91px;
+		height: 0.944px;
+		position: absolute;
+		overflow: visible;
+		transform: translate(0px, 0px) matrix(1,0,0,1,33.4449,73.8189) rotate(-23.591deg);
+		transform-origin: center;
+	}
+	#Rectangle_572 {
+		fill: rgba(34,31,31,1);
+	}
+	.Rectangle_572 {
+		width: 42.016px;
+		height: 0.992px;
+		position: absolute;
+		overflow: visible;
+		transform: translate(0px, 0px) matrix(1,0,0,1,36.6651,83.5369) rotate(-23.591deg);
+		transform-origin: center;
+	}
+	#Rectangle_573 {
+		fill: rgba(34,31,31,1);
+	}
+	.Rectangle_573 {
+		width: 42.016px;
+		height: 0.992px;
+		position: absolute;
+		overflow: visible;
+		transform: translate(0px, 0px) matrix(1,0,0,1,48.8866,111.5902) rotate(-23.591deg);
+		transform-origin: center;
+	}
+	#Rectangle_574 {
+		fill: rgba(34,31,31,1);
+	}
+	.Rectangle_574 {
+		width: 55.234px;
+		height: 1.085px;
+		position: absolute;
+		overflow: visible;
+		transform: translate(0px, 0px) matrix(1,0,0,1,38.176,85.6237) rotate(-23.591deg);
+		transform-origin: center;
+	}
+	#Rectangle_575 {
+		fill: rgba(34,31,31,1);
+	}
+	.Rectangle_575 {
+		width: 62.786px;
+		height: 0.992px;
+		position: absolute;
+		overflow: visible;
+		transform: translate(0px, 0px) matrix(1,0,0,1,39.8803,88.7327) rotate(-23.591deg);
+		transform-origin: center;
+	}
+	#Rectangle_576 {
+		fill: rgba(34,31,31,1);
+	}
+	.Rectangle_576 {
+		width: 49.049px;
+		height: 0.755px;
+		position: absolute;
+		overflow: visible;
+		transform: translate(0px, 0px) matrix(1,0,0,1,42.419,96.1064) rotate(-23.591deg);
+		transform-origin: center;
+	}
+	#Rectangle_577 {
+		fill: rgba(34,31,31,1);
+	}
+	.Rectangle_577 {
+		width: 60.284px;
+		height: 0.898px;
+		position: absolute;
+		overflow: visible;
+		transform: translate(0px, 0px) matrix(1,0,0,1,43.9436,98.4236) rotate(-23.591deg);
+		transform-origin: center;
+	}
+	#Rectangle_578 {
+		fill: rgba(34,31,31,1);
+	}
+	.Rectangle_578 {
+		width: 60.284px;
+		height: 0.898px;
+		position: absolute;
+		overflow: visible;
+		transform: translate(0px, 0px) matrix(1,0,0,1,50.2047,113.9609) rotate(-23.591deg);
+		transform-origin: center;
+	}
+	#Rectangle_579 {
+		fill: rgba(34,31,31,1);
+	}
+	.Rectangle_579 {
+		width: 60.284px;
+		height: 0.803px;
+		position: absolute;
+		overflow: visible;
+		transform: translate(0px, 0px) matrix(1,0,0,1,45.9275,103.0005) rotate(-23.591deg);
+		transform-origin: center;
+	}
+	#Path_787 {
+		opacity: 0.34;
+		fill: rgba(1,1,1,1);
+	}
+	.Path_787 {
+		overflow: visible;
+		position: absolute;
+		width: 31.009px;
+		height: 22.568px;
+		left: 64.188px;
+		top: 8.581px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_788 {
+		fill: rgba(207,207,206,1);
+	}
+	.Path_788 {
+		overflow: visible;
+		position: absolute;
+		width: 31.535px;
+		height: 21.483px;
+		left: 63.67px;
+		top: 7.4px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#graph {
+		position: absolute;
+		width: 11.042px;
+		height: 10.59px;
+		left: 139px;
+		top: 1763.88px;
+		overflow: visible;
+	}
+	#Path_799 {
+		fill: rgba(0,102,179,1);
+	}
+	.Path_799 {
+		overflow: visible;
+		position: absolute;
+		width: 6.945px;
+		height: 9.497px;
+		left: 0px;
+		top: 0.739px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_626 {
+		position: absolute;
+		width: 5.134px;
+		height: 6.552px;
+		left: 5.268px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Path_800 {
+		fill: rgba(181,227,239,1);
+	}
+	.Path_800 {
+		overflow: visible;
+		position: absolute;
+		width: 5.134px;
+		height: 6.552px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_801 {
+		fill: rgba(0,102,179,1);
+	}
+	.Path_801 {
+		overflow: visible;
+		position: absolute;
+		width: 5.976px;
+		height: 5.103px;
+		left: 5.066px;
+		top: 5.487px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_802 {
+		fill: rgba(0,102,179,1);
+	}
+	.Path_802 {
+		overflow: visible;
+		position: absolute;
+		width: 5.976px;
+		height: 5.103px;
+		left: 5.066px;
+		top: 5.487px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#paper2 {
+		position: absolute;
+		width: 92.113px;
+		height: 105.482px;
+		left: 822.343px;
+		top: 1902.518px;
+		overflow: visible;
+	}
+	#Path_792 {
+		fill: rgba(242,242,242,1);
+	}
+	.Path_792 {
+		overflow: visible;
+		position: absolute;
+		width: 92.113px;
+		height: 105.482px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Rectangle_580 {
+		fill: rgba(34,31,31,1);
+	}
+	.Rectangle_580 {
+		width: 0.849px;
+		height: 50.796px;
+		position: absolute;
+		overflow: visible;
+		transform: translate(0px, 0px) matrix(1.0001,0,0,1.0001,56.6012,-5.5667) rotate(-72.725deg);
+		transform-origin: center;
+	}
+	#Rectangle_581 {
+		fill: rgba(34,31,31,1);
+	}
+	.Rectangle_581 {
+		width: 0.66px;
+		height: 35.359px;
+		position: absolute;
+		overflow: visible;
+		transform: translate(0px, 0px) matrix(1.0001,0,0,1.0001,48.131,3.6631) rotate(-72.725deg);
+		transform-origin: center;
+	}
+	#Rectangle_582 {
+		fill: rgba(34,31,31,1);
+	}
+	.Rectangle_582 {
+		width: 0.755px;
+		height: 35.359px;
+		position: absolute;
+		overflow: visible;
+		transform: translate(0px, 0px) matrix(1.0001,0,0,1.0001,46.8437,7.6267) rotate(-72.725deg);
+		transform-origin: center;
+	}
+	#Rectangle_583 {
+		fill: rgba(34,31,31,1);
+	}
+	.Rectangle_583 {
+		width: 0.803px;
+		height: 48.153px;
+		position: absolute;
+		overflow: visible;
+		transform: translate(0px, 0px) matrix(1.0001,0,0,1.0001,51.6692,7.293) rotate(-72.725deg);
+		transform-origin: center;
+	}
+	#Rectangle_584 {
+		fill: rgba(34,31,31,1);
+	}
+	.Rectangle_584 {
+		width: 0.66px;
+		height: 31.157px;
+		position: absolute;
+		overflow: visible;
+		transform: translate(0px, 0px) matrix(1.0001,0,0,1.0001,42.3652,17.2101) rotate(-72.725deg);
+		transform-origin: center;
+	}
+	#Rectangle_585 {
+		fill: rgba(34,31,31,1);
+	}
+	.Rectangle_585 {
+		width: 0.755px;
+		height: 40.977px;
+		position: absolute;
+		overflow: visible;
+		transform: translate(0px, 0px) matrix(1.0001,0,0,1.0001,45.8569,17.4407) rotate(-72.725deg);
+		transform-origin: center;
+	}
+	#Rectangle_586 {
+		fill: rgba(34,31,31,1);
+	}
+	.Rectangle_586 {
+		width: 0.708px;
+		height: 46.595px;
+		position: absolute;
+		overflow: visible;
+		transform: translate(0px, 0px) matrix(1.0001,0,0,1.0001,47.4955,19.0595) rotate(-72.725deg);
+		transform-origin: center;
+	}
+	#Rectangle_587 {
+		fill: rgba(34,31,31,1);
+	}
+	.Rectangle_587 {
+		width: 0.755px;
+		height: 36.398px;
+		position: absolute;
+		overflow: visible;
+		transform: translate(0px, 0px) matrix(1.0001,0,0,1.0001,41.48,26.1115) rotate(-72.725deg);
+		transform-origin: center;
+	}
+	#Rectangle_588 {
+		fill: rgba(34,31,31,1);
+	}
+	.Rectangle_588 {
+		width: 0.708px;
+		height: 44.705px;
+		position: absolute;
+		overflow: visible;
+		transform: translate(0px, 0px) matrix(1.0001,0,0,1.0001,44.3919,26.7677) rotate(-72.725deg);
+		transform-origin: center;
+	}
+	#Rectangle_589 {
+		fill: rgba(34,31,31,1);
+	}
+	.Rectangle_589 {
+		width: 0.708px;
+		height: 48.153px;
+		position: absolute;
+		overflow: visible;
+		transform: translate(0px, 0px) matrix(1.0001,0,0,1.0001,44.9081,29.1598) rotate(-72.725deg);
+		transform-origin: center;
+	}
+	#Rectangle_590 {
+		fill: rgba(34,31,31,1);
+	}
+	.Rectangle_590 {
+		width: 0.755px;
+		height: 31.157px;
+		position: absolute;
+		overflow: visible;
+		transform: translate(0px, 0px) matrix(1.0001,0,0,1.0001,35.5546,39.0904) rotate(-72.725deg);
+		transform-origin: center;
+	}
+	#Rectangle_591 {
+		fill: rgba(34,31,31,1);
+	}
+	.Rectangle_591 {
+		width: 0.755px;
+		height: 31.157px;
+		position: absolute;
+		overflow: visible;
+		transform: translate(0px, 0px) matrix(1.0001,0,0,1.0001,28.7913,60.7818) rotate(-72.725deg);
+		transform-origin: center;
+	}
+	#Rectangle_592 {
+		fill: rgba(34,31,31,1);
+	}
+	.Rectangle_592 {
+		width: 0.803px;
+		height: 40.977px;
+		position: absolute;
+		overflow: visible;
+		transform: translate(0px, 0px) matrix(1.0001,0,0,1.0001,39.0643,39.3432) rotate(-72.725deg);
+		transform-origin: center;
+	}
+	#Rectangle_593 {
+		fill: rgba(34,31,31,1);
+	}
+	.Rectangle_593 {
+		width: 0.708px;
+		height: 46.595px;
+		position: absolute;
+		overflow: visible;
+		transform: translate(0px, 0px) matrix(1.0001,0,0,1.0001,40.6872,40.9245) rotate(-72.725deg);
+		transform-origin: center;
+	}
+	#Rectangle_594 {
+		fill: rgba(34,31,31,1);
+	}
+	.Rectangle_594 {
+		width: 0.566px;
+		height: 36.398px;
+		position: absolute;
+		overflow: visible;
+		transform: translate(0px, 0px) matrix(1.0001,0,0,1.0001,34.811,47.9924) rotate(-72.725deg);
+		transform-origin: center;
+	}
+	#Rectangle_595 {
+		fill: rgba(34,31,31,1);
+	}
+	.Rectangle_595 {
+		width: 0.66px;
+		height: 44.705px;
+		position: absolute;
+		overflow: visible;
+		transform: translate(0px, 0px) matrix(1.0001,0,0,1.0001,37.6145,48.6107) rotate(-72.725deg);
+		transform-origin: center;
+	}
+	#Rectangle_596 {
+		fill: rgba(34,31,31,1);
+	}
+	.Rectangle_596 {
+		width: 0.66px;
+		height: 44.705px;
+		position: absolute;
+		overflow: visible;
+		transform: translate(0px, 0px) matrix(1.0001,0,0,1.0001,33.5856,60.4261) rotate(-72.725deg);
+		transform-origin: center;
+	}
+	#Rectangle_597 {
+		fill: rgba(34,31,31,1);
+	}
+	.Rectangle_597 {
+		width: 0.566px;
+		height: 44.705px;
+		position: absolute;
+		overflow: visible;
+		transform: translate(0px, 0px) matrix(1.0001,0,0,1.0001,36.5688,52.1066) rotate(-72.725deg);
+		transform-origin: center;
+	}
+	#Path_793 {
+		opacity: 0.34;
+		fill: rgba(1,1,1,1);
+	}
+	.Path_793 {
+		overflow: visible;
+		position: absolute;
+		width: 15.123px;
+		height: 21.622px;
+		left: 72.735px;
+		top: 15.507px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_794 {
+		fill: rgba(207,207,206,1);
+	}
+	.Path_794 {
+		overflow: visible;
+		position: absolute;
+		width: 16.304px;
+		height: 22.471px;
+		left: 71.601px;
+		top: 14.611px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#graph_cl {
+		position: absolute;
+		width: 11.042px;
+		height: 10.59px;
+		left: 139px;
+		top: 1811.416px;
+		overflow: visible;
+	}
+	#Path_799_cm {
+		fill: rgba(0,102,179,1);
+	}
+	.Path_799_cm {
+		overflow: visible;
+		position: absolute;
+		width: 6.945px;
+		height: 9.497px;
+		left: 0px;
+		top: 0.739px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_626_cn {
+		position: absolute;
+		width: 5.134px;
+		height: 6.552px;
+		left: 5.268px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Path_800_co {
+		fill: rgba(181,227,239,1);
+	}
+	.Path_800_co {
+		overflow: visible;
+		position: absolute;
+		width: 5.134px;
+		height: 6.552px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_801_cp {
+		fill: rgba(0,102,179,1);
+	}
+	.Path_801_cp {
+		overflow: visible;
+		position: absolute;
+		width: 5.976px;
+		height: 5.103px;
+		left: 5.066px;
+		top: 5.487px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_802_cq {
+		fill: rgba(0,102,179,1);
+	}
+	.Path_802_cq {
+		overflow: visible;
+		position: absolute;
+		width: 5.976px;
+		height: 5.103px;
+		left: 5.066px;
+		top: 5.487px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#graph_cr {
+		position: absolute;
+		width: 11.042px;
+		height: 10.59px;
+		left: 139px;
+		top: 1897.527px;
+		overflow: visible;
+	}
+	#Path_799_cs {
+		fill: rgba(0,102,179,1);
+	}
+	.Path_799_cs {
+		overflow: visible;
+		position: absolute;
+		width: 6.945px;
+		height: 9.497px;
+		left: 0px;
+		top: 0.739px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_626_ct {
+		position: absolute;
+		width: 5.134px;
+		height: 6.552px;
+		left: 5.268px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Path_800_cu {
+		fill: rgba(181,227,239,1);
+	}
+	.Path_800_cu {
+		overflow: visible;
+		position: absolute;
+		width: 5.134px;
+		height: 6.552px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_801_cv {
+		fill: rgba(0,102,179,1);
+	}
+	.Path_801_cv {
+		overflow: visible;
+		position: absolute;
+		width: 5.976px;
+		height: 5.103px;
+		left: 5.066px;
+		top: 5.487px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_802_cw {
+		fill: rgba(0,102,179,1);
+	}
+	.Path_802_cw {
+		overflow: visible;
+		position: absolute;
+		width: 5.976px;
+		height: 5.103px;
+		left: 5.066px;
+		top: 5.487px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#footer {
+		position: absolute;
+		width: 1366px;
+		height: 265.243px;
+		left: 0px;
+		top: 2079px;
+		overflow: visible;
+	}
+	#Path_22 {
+		fill: rgba(68,68,68,1);
+	}
+	.Path_22 {
+		filter: drop-shadow(0px 3px 12px rgba(0, 0, 0, 0.161));
+		overflow: visible;
+		position: absolute;
+		width: 1402px;
+		height: 301.243px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Address_Japan_108-0075_Tokyo_M {
+		left: 116px;
+		top: 87px;
+		position: absolute;
+		overflow: visible;
+		width: 391px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(255,255,255,1);
+	}
+	#up {
+		position: absolute;
+		width: 65px;
+		height: 37px;
+		left: 1260px;
+		top: 102px;
+		overflow: visible;
+	}
+	#Rectangle_19 {
+		fill: rgba(0,46,132,1);
+	}
+	.Rectangle_19 {
+		filter: drop-shadow(20px 20px 50px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 215px;
+		height: 187px;
+		left: 0px;
+		top: 0px;
+	}
+	#Polygon_1 {
+		fill: rgba(255,255,255,1);
+	}
+	.Polygon_1 {
+		overflow: visible;
+		position: absolute;
+		width: 18px;
+		height: 20px;
+		left: 24px;
+		top: 8px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#copyright {
+		position: absolute;
+		width: 236px;
+		height: 19px;
+		left: 595px;
+		top: 160.079px;
+		overflow: visible;
+	}
+	#Copyright_2020_All_rights_rese {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 237px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(143,248,255,0.298);
+	}
+	#contact {
+		position: absolute;
+		width: 135.228px;
+		height: 66.474px;
+		left: 946px;
+		top: 87px;
+		overflow: visible;
+	}
+	#Contact_us {
+		left: 26px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 83px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		color: rgba(38,128,235,1);
+	}
+	#social {
+		position: absolute;
+		width: 135.228px;
+		height: 31.474px;
+		left: 0px;
+		top: 35px;
+		overflow: visible;
+	}
+	#Group_16 {
+		position: absolute;
+		width: 135.228px;
+		height: 31.474px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#world-wide-web {
+		position: absolute;
+		width: 29.878px;
+		height: 29.878px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Path_53 {
+		fill: rgba(101,177,252,1);
+	}
+	.Path_53 {
+		overflow: visible;
+		position: absolute;
+		width: 27.994px;
+		height: 28.127px;
+		left: 0.942px;
+		top: 0.875px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_54 {
+		fill: rgba(22,137,252,1);
+	}
+	.Path_54 {
+		overflow: visible;
+		position: absolute;
+		width: 13.997px;
+		height: 28.127px;
+		left: 14.939px;
+		top: 0.875px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_55 {
+		fill: rgba(150,235,230,1);
+	}
+	.Path_55 {
+		overflow: visible;
+		position: absolute;
+		width: 29.851px;
+		height: 29.878px;
+		left: 0.015px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_56 {
+		fill: rgba(0,200,200,1);
+	}
+	.Path_56 {
+		overflow: visible;
+		position: absolute;
+		width: 14.927px;
+		height: 29.878px;
+		left: 14.939px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_57 {
+		fill: rgba(0,83,191,1);
+	}
+	.Path_57 {
+		overflow: visible;
+		position: absolute;
+		width: 29.878px;
+		height: 12.255px;
+		left: 0px;
+		top: 8.812px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_58 {
+		fill: rgba(5,55,127,1);
+	}
+	.Path_58 {
+		overflow: visible;
+		position: absolute;
+		width: 14.939px;
+		height: 12.255px;
+		left: 14.939px;
+		top: 8.812px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_59 {
+		fill: rgba(225,241,250,1);
+	}
+	.Path_59 {
+		overflow: visible;
+		position: absolute;
+		width: 8.755px;
+		height: 5.253px;
+		left: 10.561px;
+		top: 12.312px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_60 {
+		fill: rgba(191,225,255,1);
+	}
+	.Path_60 {
+		overflow: visible;
+		position: absolute;
+		width: 8.78px;
+		height: 5.251px;
+		left: 19.289px;
+		top: 12.313px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_61 {
+		fill: rgba(225,241,250,1);
+	}
+	.Path_61 {
+		overflow: visible;
+		position: absolute;
+		width: 8.78px;
+		height: 5.251px;
+		left: 1.809px;
+		top: 12.313px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_62 {
+		fill: rgba(191,225,255,1);
+	}
+	.Path_62 {
+		overflow: visible;
+		position: absolute;
+		width: 4.378px;
+		height: 5.253px;
+		left: 14.939px;
+		top: 12.312px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#facebook_2 {
+		position: absolute;
+		width: 32.743px;
+		height: 29.878px;
+		left: 102.484px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Path_63 {
+		fill: rgba(74,122,255,1);
+	}
+	.Path_63 {
+		overflow: visible;
+		position: absolute;
+		width: 32.743px;
+		height: 29.878px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_64 {
+		fill: rgba(0,83,191,1);
+	}
+	.Path_64 {
+		overflow: visible;
+		position: absolute;
+		width: 23.518px;
+		height: 25.468px;
+		left: 9.226px;
+		top: 4.395px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_65 {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_65 {
+		overflow: visible;
+		position: absolute;
+		width: 12.151px;
+		height: 21.855px;
+		left: 9.226px;
+		top: 4.151px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_66 {
+		fill: rgba(220,225,235,1);
+	}
+	.Path_66 {
+		overflow: visible;
+		position: absolute;
+		width: 5.028px;
+		height: 21.855px;
+		left: 16.349px;
+		top: 4.151px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#twitter_1 {
+		position: absolute;
+		width: 31.474px;
+		height: 31.474px;
+		left: 50.281px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Path_67 {
+		fill: rgba(74,122,255,1);
+	}
+	.Path_67 {
+		overflow: visible;
+		position: absolute;
+		width: 31.474px;
+		height: 31.474px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_68 {
+		fill: rgba(74,122,255,1);
+	}
+	.Path_68 {
+		overflow: visible;
+		position: absolute;
+		width: 31.474px;
+		height: 31.474px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_69 {
+		fill: rgba(0,83,191,1);
+	}
+	.Path_69 {
+		overflow: visible;
+		position: absolute;
+		width: 26.33px;
+		height: 24.028px;
+		left: 5.144px;
+		top: 7.446px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_70 {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_70 {
+		overflow: visible;
+		position: absolute;
+		width: 21.186px;
+		height: 17.219px;
+		left: 5.144px;
+		top: 7.128px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_71 {
+		fill: rgba(220,225,235,1);
+	}
+	.Path_71 {
+		overflow: visible;
+		position: absolute;
+		width: 10.615px;
+		height: 16.634px;
+		left: 15.715px;
+		top: 7.128px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+</style>
+
+</head>
+<body>
+<div id="Home_Page">
+	
+	<!--ROAD TO JAPAN-->
+	<div id="road_to_japna">
+		<img id="kisspng-hokkaidu014d-shrine-ko" src="kisspng-hokkaidu014d-shrine-ko.png" srcset="kisspng-hokkaidu014d-shrine-ko.png 1x, kisspng-hokkaidu014d-shrine-ko@2x.png 2x">
+			
+		<div id="Road_To_Japan__________">
+			「ROAD TO JAPAN」<br><br><span style="font-style:normal;font-weight:normal;">
+			「ROAD TO JAPAN」စီမံကိန်းသည် ဂျပန်နိုင်ငံ၏ITကုမ္ပဏီများတွင်<br/>အလုပ်လုပ်ရန်အတွက် ရန်ကုန်ကွန်ပျူတာတက္ကသိုလ်မှကျောင်းသား<br/>ကျောင်းသူများအား ဂျပန်ဘာသာစကား၊ ဂျပန်နိုင်ငံ၏ယဉ်ကျေးမူ၊ ဦးဆောင်နိုင်မူအစရှိသည်တို့ကို သင်ကြားပေးသောစီမံကိန်းတစ်ခုဖြစ်ပါသည်။
+</span>
+		</div>
+	</div>
+	<div onclick="application.goToTargetView(event)" id="main_page">
+		<img id="road_to_japan_fix" src="logo.jpg"style="margin-top: 10px;" >
+			
+		<svg class="Rectangle_17">
+			<rect id="Rectangle_17" rx="0" ry="0" x="0" y="0" width="841" height="64">
+			</rect>
+		</svg>
+		<svg class="Rectangle_69">
+			<rect id="Rectangle_69" rx="0" ry="0" x="0" y="0" width="666" height="615">
+			</rect>
+		</svg>
+		<div id="It___">
+			<span>IT の 勉強</span><br>
+		</div>
+		<svg class="Path_23" viewBox="0 0 862.332 615">
+			<path id="Path_23" d="M 0.0001220703125 0 L 698.0001220703125 0 C 698.0001220703125 0 836.9204711914063 95.93063354492188 859.3125610351563 212.6311798095703 C 863.7582397460938 235.8007049560547 863.596435546875 259.8400268554688 856.8033447265625 284.1072387695313 C 815.8809814453125 430.2951049804688 698.0001220703125 615.0000610351563 698.0001220703125 615.0000610351563 L 0.0001220703125 615.0000610351563 L 0.0001220703125 0 Z">
+			</path>
+		</svg>
+		<img id="favpng_distance-education-e-le" src="favpng_distance-education-e-le.png" srcset="favpng_distance-education-e-le.png 1x, favpng_distance-education-e-le@2x.png 2x">
+			
+		
+		<div id="learn_IT_for_future">
+			<span>learn IT for future</span>
+		</div>
+	</div>
+	<div id="shape">
+		<svg class="Polygon_2" viewBox="0 0 52 42">
+			<path id="Polygon_2" d="M 25.99999809265137 0 L 52 42 L 0 42 Z">
+			</path>
+		</svg>
+		<svg class="Polygon_3" viewBox="0 0 52 50">
+			<path id="Polygon_3" d="M 25.99999809265137 0 L 52 50 L 0 50 Z">
+			</path>
+		</svg>
+		<svg class="Ellipse_11">
+			<ellipse id="Ellipse_11" rx="25" ry="23" cx="25" cy="23">
+			</ellipse>
+		</svg>
+	</div>
+	<!--navigation var-->
+
+		<div class="nav">
+		
+
+			</a>
+
+			<!--menu-->
+			<ul class="menu-bar">
+				<li><a class="aa" href="home_Myanmar.html">HOME</a></li>
+				<li><a class="ab" href="activity_Myanmar.html">ACTIVITY</a></li>
+				<li><a href="media_Myanmar.html" class="ac">MEDIA</a></li>
+				<li><a href="about_Myanmar.html" class="ad">ABOUT</a></li>
+
+			</ul>
+
+		</div>
+		<div id="tool_bar">
+			<svg class="Rectangle_2">
+				<rect id="Rectangle_2" rx="0" ry="0" x="0" y="0" width="1366" height="42">
+				</rect>
+			</svg>
+			<div id="Road_to_Japan">
+				<span>Road to Japan</span>
+			</div>
+			<a href="Home_Page.html"><img id="myanmar-flag-icon-256" src="japan.png" ></a>
+				
+		</div>
+	<!--END--->
+	<a href="about_Myanmar.html #_ROAD_TO_JAPAN__Gozioki___Univ">
+		<div id="botton">
+		
+		<svg class="Path_43" viewBox="0 0 153.168 67.207">
+			<path id="Path_43" d="M 33.603271484375 0 L 119.5651321411133 0 C 138.1237030029297 0 153.1683959960938 15.04469680786133 153.1683959960938 33.603271484375 C 153.1683959960938 52.16184616088867 138.1237030029297 67.20654296875 119.5651321411133 67.20654296875 L 33.603271484375 67.20654296875 C 15.04469680786133 67.20654296875 0 52.16184616088867 0 33.603271484375 C 0 15.04469680786133 15.04469680786133 0 33.603271484375 0 Z">
+			</path>
+		</svg>
+		<div id="_dk">
+			<span style="text-decoration: none; color: white">See More</span>
+		</div>
+	</div>
+</a>
+	<a href=" about_Myanmar.html #goalsection"><div onclick="application.goToTargetView(event)" id="botton_dl">
+		<svg class="Path_24_dm" viewBox="0 0 153.168 67.207">
+			<path onclick="application.goToTargetView(event)" id="Path_24_dm" d="M 33.603271484375 0 L 119.5651321411133 0 C 138.1237030029297 0 153.1683959960938 15.04469680786133 153.1683959960938 33.603271484375 C 153.1683959960938 52.16184616088867 138.1237030029297 67.20654296875 119.5651321411133 67.20654296875 L 33.603271484375 67.20654296875 C 15.04469680786133 67.20654296875 0 52.16184616088867 0 33.603271484375 C 0 15.04469680786133 15.04469680786133 0 33.603271484375 0 Z">
+			</path>
+		</svg>
+		<div id="_dn">
+			<span style="text-decoration: none; color: white">See More</span>
+		</div>
+	</div>
+</a>
+	<!--ACTIVITIES--->
+	<div id="activities">
+		<div onclick="application.goToTargetView(event)" id="Activity">
+			
+			<a href="activity_Myanmar.html"><img  id="group" src="header.png" style="width: 400px;height: 300px;" >
+				
+			
+			<div id="ID2019_Road_to_Japan_">
+				<span>2019 「ROAD TO JAPAN」 Project</span>
+			</div>
+		</div>
+	
+         </a>
+		<a href="coming_Myanmar.html"><div id="Activity_dx">
+			<a href="comingsoon_Myanmar.html"><img id="Group_Photo" src="comingSoon.png" style="width: 450px;height: 390px;" >
+				
+			
+			<div id="ID2020_Road_to_Japan_">
+				<span>2020 「ROAD TO JAPAN」 Project</span>
+			</div>
+		</div>
+	</a>
+		<div id="shape_d">
+			<svg class="Polygon_2_d" viewBox="0 0 52 42">
+				<path id="Polygon_2_d" d="M 25.99999809265137 0 L 52 42 L 0 42 Z">
+				</path>
+			</svg>
+			<svg class="Polygon_3_d" viewBox="0 0 52 50">
+				<path id="Polygon_3_d" d="M 25.99999809265137 0 L 52 50 L 0 50 Z">
+				</path>
+			</svg>
+			<svg class="Ellipse_11_d">
+				<ellipse id="Ellipse_11_d" rx="25" ry="23" cx="25" cy="23">
+				</ellipse>
+			</svg>
+		</div>
+	
+
+		
+		<div id="activity">
+			<svg class="Path_45" viewBox="0 0 368 40">
+				<path id="Path_45" d="M 0 0 L 129.7739715576172 0 L 368 0 C 368 0 361.9486083984375 3.721414566040039 345.0484313964844 9.313515663146973 C 331.9901123046875 14.6837100982666 322.154296875 16.38764572143555 318.7211608886719 18.59379577636719 C 315.4667663574219 20.68449020385742 318.7211608886719 18.59379577636719 318.7211608886719 18.59379577636719 L 368 40 L 0 40 L 0 27.25449562072754 L 0 0 Z">
+				</path>
+			</svg>
+			<div id="_d">
+				<span>Our Activities</span>
+			</div>
+		</div>
+	</div>
+	<!--END ACTIVITIES-->
+	<div id="mission_d">
+		<div id="activity_ea">
+			<svg class="Path_45_eb" viewBox="0 0 368 40">
+				<path id="Path_45_eb" d="M 0 0 L 129.7739715576172 0 L 368 0 C 368 0 361.9486083984375 3.721414566040039 345.0484313964844 9.313515663146973 C 331.9901123046875 14.6837100982666 322.154296875 16.38764572143555 318.7211608886719 18.59379577636719 C 315.4667663574219 20.68449020385742 318.7211608886719 18.59379577636719 318.7211608886719 18.59379577636719 L 368 40 L 0 40 L 0 27.25449562072754 L 0 0 Z">
+				</path>
+			</svg>
+		</div>
+		<div id="_ec">
+			<span>Our Mission</span>
+		</div>
+	</div>
+	
+		<!--MISSION----->
+		<div id="mission">
+		<div id="Group_628">
+			<svg class="Rectangle_556">
+				<rect id="Rectangle_556" rx="0" ry="0" x="0" y="0" width="11.012" height="27.894">
+				</rect>
+			</svg>
+			<svg class="Rectangle_557">
+				<rect id="Rectangle_557" rx="0" ry="0" x="0" y="0" width="11.012" height="37.007">
+				</rect>
+			</svg>
+			<svg class="Rectangle_558">
+				<rect id="Rectangle_558" rx="0" ry="0" x="0" y="0" width="11.012" height="37.007">
+				</rect>
+			</svg>
+			<svg class="Rectangle_559">
+				<rect id="Rectangle_559" rx="0" ry="0" x="0" y="0" width="11.012" height="72.426">
+				</rect>
+			</svg>
+			<svg class="Rectangle_560">
+				<rect id="Rectangle_560" rx="0" ry="0" x="0" y="0" width="11.012" height="57.684">
+				</rect>
+			</svg>
+			<svg class="Rectangle_561">
+				<rect id="Rectangle_561" rx="0" ry="0" x="0" y="0" width="11.012" height="82.702">
+				</rect>
+			</svg>
+		</div>
+		<svg class="Ellipse_133">
+			<ellipse id="Ellipse_133" rx="125.15941619873047" ry="111.28540802001953" cx="125.15941619873047" cy="111.28540802001953">
+			</ellipse>
+		</svg>
+		<svg class="Ellipse_134">
+			<ellipse id="Ellipse_134" rx="116.64521789550781" ry="102.10992431640625" cx="116.64521789550781" cy="102.10992431640625">
+			</ellipse>
+		</svg>
+		<svg class="Ellipse_135">
+			<ellipse id="Ellipse_135" rx="81.96403503417969" ry="88.33016204833984" cx="81.96403503417969" cy="88.33016204833984">
+			</ellipse>
+		</svg>
+		<svg class="Ellipse_136">
+			<ellipse id="Ellipse_136" rx="57.839866638183594" ry="62.332271575927734" cx="57.839866638183594" cy="62.332271575927734">
+			</ellipse>
+		</svg>
+		<svg class="Ellipse_137">
+			<ellipse id="Ellipse_137" rx="27.58539581298828" ry="29.727947235107422" cx="27.58539581298828" cy="29.727947235107422">
+			</ellipse>
+		</svg>
+		<svg class="Path_789" viewBox="378.615 29.257 182.424 119.066">
+			<path id="Path_789" d="M 559.5697021484375 73.20376586914063 L 544.583984375 62.06984710693359 C 545.0557861328125 60.03573608398438 544.834228515625 57.88669204711914 543.959716796875 56.0137825012207 C 543.3085327148438 54.60469055175781 542.3062744140625 53.4188117980957 541.06494140625 52.58901977539063 L 542.824462890625 32.58694839477539 C 543.052001953125 29.83510780334473 541.348388671875 28.54957008361816 539.022216796875 29.65030860900879 L 499.9143371582031 48.85696792602539 C 497.381591796875 50.30981826782227 495.5289916992188 52.83890914916992 494.805419921875 55.83099365234375 L 491.003173828125 76.81330108642578 L 385.0771179199219 139.3283386230469 C 381.0474243164063 141.5378723144531 377.1314086914063 141.837158203125 379.1742248535156 146.1798400878906 C 381.217041015625 150.5225524902344 383.7724609375 147.2805480957031 387.8020324707031 145.0791320800781 L 495.7616271972656 90.45401000976563 L 510.6894836425781 99.99708557128906 C 513.2151489257813 101.4084014892578 516.19580078125 101.5205230712891 518.8067016601563 100.3024139404297 L 559.22119140625 78.34189605712891 C 560.2352294921875 78.01074981689453 560.955322265625 77.04071807861328 561.032470703125 75.90178680419922 C 561.1097412109375 74.76287078857422 560.5281982421875 73.69029998779297 559.5695190429688 73.20375823974609 Z">
+			</path>
+		</svg>
+		<svg class="Path_790" viewBox="378.625 29.257 165.556 116.617">
+			<path id="Path_790" d="M 543.9039916992188 56.0137825012207 C 543.2529296875 54.60475921630859 542.2506713867188 53.41891860961914 541.0094604492188 52.58904266357422 L 542.7689208984375 32.58694458007813 C 542.9964599609375 29.83510208129883 541.2927856445313 28.5495662689209 538.9666748046875 29.65030860900879 L 499.8587646484375 48.85697174072266 C 497.3259887695313 50.30981826782227 495.473388671875 52.83890914916992 494.7499389648438 55.83099365234375 L 490.9475708007813 76.81330108642578 L 385.079345703125 139.3283386230469 C 381.1651611328125 141.4695739746094 377.30322265625 141.837158203125 379.0626831054688 145.8745422363281 L 544.1818237304688 56.5661506652832 C 544.0755615234375 56.38136672973633 544.0196533203125 56.19856262207031 543.9039916992188 56.0137825012207 Z">
+			</path>
+		</svg>
+		<svg class="Path_791" viewBox="378.6 212.899 118.574 6.731">
+			<path id="Path_791" d="M 497.17431640625 218.651611328125 L 497.17431640625 219.6297912597656 L 381.7779541015625 219.6297912597656 C 380.0873107910156 219.6314086914063 378.6911926269531 218.2071075439453 378.6000366210938 216.3878326416016 L 378.6000366210938 216.0202941894531 C 378.7019653320313 214.2252807617188 380.1100769042969 212.8431701660156 381.7779541015625 212.9009094238281 L 497.0606689453125 212.90087890625 C 497.1184387207031 214.7367248535156 497.17431640625 216.6931457519531 497.17431640625 218.651611328125 Z">
+			</path>
+		</svg>
+		<svg class="Path_795" viewBox="602.4 334.013 31.488 37.015">
+			<path id="Path_795" d="M 603.7044677734375 356.8850708007813 C 601.2647094726563 360.309814453125 602.342041015625 365.6327514648438 606.146240234375 368.8123779296875 L 606.146240234375 368.8123779296875 C 609.9484252929688 371.9317932128906 615.00146484375 371.7490234375 617.4413452148438 368.322265625 L 633.6757202148438 345.5663452148438 C 635.832275390625 343.7926330566406 620.9044799804688 332.4759826660156 619.9389038085938 334.1893615722656 L 603.7044677734375 356.8850708007813 Z">
+			</path>
+		</svg>
+		<svg class="Path_796" viewBox="542.208 364.689 54.035 66.146">
+			<path id="Path_796" d="M 574.4384765625 365.4828186035156 L 574.4943237304688 365.4226684570313 C 574.7230224609375 365.051513671875 575.081787109375 364.7963562011719 575.4884033203125 364.7156677246094 C 575.89501953125 364.6350402832031 576.3143920898438 364.7357788085938 576.6507568359375 364.9948120117188 L 595.7221069335938 380.7766723632813 C 596.3448486328125 381.4040222167969 596.41845703125 382.4407653808594 595.8916625976563 383.1629638671875 L 592.5366821289063 387.8732604980469 L 592.5366821289063 387.8732604980469 L 568.3695678710938 421.7570190429688 C 562.2393798828125 430.3821716308594 552.42041015625 433.379150390625 546.5174560546875 428.4860229492188 C 540.6145629882813 423.5929870605469 540.7842407226563 412.6438903808594 546.9723510742188 404.0187072753906 L 574.4458618164063 365.4808959960938 Z">
+			</path>
+		</svg>
+		<svg class="Path_797" viewBox="604.836 205.439 95.044 102.422">
+			<path id="Path_797" d="M 614.6974487304688 225.418701171875 C 598.6927490234375 247.8340148925781 602.5802001953125 279.9874267578125 623.3803100585938 297.2348022460938 C 644.1804809570313 314.4822082519531 674.016357421875 310.2922058105469 690.0203857421875 287.876220703125 C 706.024169921875 265.4601745605469 702.1356201171875 233.3069458007813 681.3348388671875 216.0604400634766 C 660.5338745117188 198.8206024169922 630.7041015625 203.0097961425781 614.6974487304688 225.4187622070313 Z M 618.8985595703125 245.3605041503906 C 623.797607421875 228.5330200195313 638.844482421875 217.593505859375 655.15771484375 218.9989013671875 C 671.4710693359375 220.4043731689453 684.7138671875 233.7812042236328 687.070068359375 251.2337951660156 C 689.1092529296875 266.5911865234375 682.228515625 281.7308044433594 669.7199096679688 289.4094848632813 C 657.2113037109375 297.0881958007813 641.6180419921875 295.7448425292969 630.4002685546875 286.0219116210938 C 619.1826171875 276.2991027832031 614.6212768554688 260.1736450195313 618.8985595703125 245.3605041503906 Z">
+			</path>
+		</svg>
+		<svg class="Ellipse_138" viewBox="0 0 70.827 74.752">
+			<path id="Ellipse_138" d="M 36.35464096069336 0.0120917409658432 C 55.90585327148438 -0.5077606439590454 71.33382415771484 15.79929447174072 70.81397247314453 36.43491744995117 C 70.29414367675781 57.07052993774414 54.0233039855957 74.220458984375 34.47209930419922 74.74029541015625 C 14.9208812713623 75.26014709472656 -0.5070891380310059 58.95309829711914 0.0127633661031723 38.31746673583984 C 0.532615602016449 17.68184280395508 16.80343055725098 0.5319437980651855 36.35464096069336 0.0120917409658432 Z">
+			</path>
+		</svg>
+		<svg class="Path_798" viewBox="630.2 227.108 67.944 32.341">
+			<path id="Path_798" d="M 635.7058715820313 241.833251953125 C 633.233642578125 245.2714080810547 631.3673095703125 249.1690368652344 630.2001342773438 253.332763671875 L 630.2001342773438 253.332763671875 C 671.2389526367188 239.3244323730469 697.4617309570313 258.898681640625 698.1439208984375 259.4490661621094 C 696.1220092773438 244.4356994628906 685.9596557617188 232.1836547851563 672.3416137695313 228.3411712646484 C 658.7232055664063 224.4986877441406 644.2933349609375 229.8118591308594 635.7041625976563 241.8312377929688 Z">
+			</path>
+		</svg>
+	</div>
+	<div id="_____________________">
+		<span>「ROAD TO JAPAN」စီမံကိန်းသည် ဂျပန်မြန်မာနှစ်နိုင်ငံယဉ်ကျေးမူဖလှယ်ခြင်း၊<br/>ဂျပန်ဘာသာစကားနှင့်ဂျပန်ကုမ္ပဏီသုံးအမူအကျင့်များကို စနစ်တကျသင်ကြားပေးခြင်း၊<br/>ကျောင်းသားကျောင်းသူများကို ဂျပန်ကုမ္ပဏီများနှင့် မိတ်ဆက်ပေး၍အလုပ်အကိုင်<br/>အခွင့်အလမ်းများထောက်ပံ့ပေးခြင်းတို့ဖြစ်ပါသည်။
+		</span>
+	</div>
+	<div id="paper">
+		<svg class="Path_786" viewBox="0.021 47.723 132.447 146.266">
+			<path id="Path_786" d="M 78.98468017578125 48.42033004760742 L 63.68922805786133 55.07672500610352 L 19.88166999816895 74.19486999511719 L 4.638930797576904 80.89932250976563 C 1.051857352256775 82.44947814941406 -0.8842944502830505 86.13885498046875 0.4379931688308716 89.16012573242188 L 7.802810192108154 106.056884765625 L 44.76641082763672 190.6957092285156 C 46.08869934082031 193.7169952392578 50.10051345825195 194.8501434326172 53.64108276367188 193.292236328125 L 53.68758773803711 193.2457427978516 L 128.0317840576172 160.7744903564453 L 128.0317840576172 160.8209838867188 C 131.1758270263672 159.6785736083984 133.0049896240234 156.4017944335938 132.3273010253906 153.1260070800781 C 132.2807922363281 152.9368743896484 132.1862182617188 152.7477416992188 132.1381683349609 152.5601806640625 L 95.17766571044922 67.91671752929688 L 87.81284332275391 51.01995468139648 C 86.48745727539063 47.99714279174805 82.57330322265625 46.86242294311523 78.98468017578125 48.42033004760742 Z">
+			</path>
+		</svg>
+		<svg class="Rectangle_562">
+			<rect id="Rectangle_562" rx="0" ry="0" x="0" y="0" width="68.499" height="1.18">
+			</rect>
+		</svg>
+		<svg class="Rectangle_563">
+			<rect id="Rectangle_563" rx="0" ry="0" x="0" y="0" width="47.68" height="0.898">
+			</rect>
+		</svg>
+		<svg class="Rectangle_564">
+			<rect id="Rectangle_564" rx="0" ry="0" x="0" y="0" width="47.68" height="0.992">
+			</rect>
+		</svg>
+		<svg class="Rectangle_565">
+			<rect id="Rectangle_565" rx="0" ry="0" x="0" y="0" width="64.91" height="1.085">
+			</rect>
+		</svg>
+		<svg class="Rectangle_566">
+			<rect id="Rectangle_566" rx="0" ry="0" x="0" y="0" width="42.016" height="0.849">
+			</rect>
+		</svg>
+		<svg class="Rectangle_567">
+			<rect id="Rectangle_567" rx="0" ry="0" x="0" y="0" width="55.234" height="0.992">
+			</rect>
+		</svg>
+		<svg class="Rectangle_568">
+			<rect id="Rectangle_568" rx="0" ry="0" x="0" y="0" width="62.786" height="0.992">
+			</rect>
+		</svg>
+		<svg class="Rectangle_569">
+			<rect id="Rectangle_569" rx="0" ry="0" x="0" y="0" width="49.049" height="1.039">
+			</rect>
+		</svg>
+		<svg class="Rectangle_570">
+			<rect id="Rectangle_570" rx="0" ry="0" x="0" y="0" width="60.284" height="0.944">
+			</rect>
+		</svg>
+		<svg class="Rectangle_571">
+			<rect id="Rectangle_571" rx="0" ry="0" x="0" y="0" width="64.91" height="0.944">
+			</rect>
+		</svg>
+		<svg class="Rectangle_572">
+			<rect id="Rectangle_572" rx="0" ry="0" x="0" y="0" width="42.016" height="0.992">
+			</rect>
+		</svg>
+		<svg class="Rectangle_573">
+			<rect id="Rectangle_573" rx="0" ry="0" x="0" y="0" width="42.016" height="0.992">
+			</rect>
+		</svg>
+		<svg class="Rectangle_574">
+			<rect id="Rectangle_574" rx="0" ry="0" x="0" y="0" width="55.234" height="1.085">
+			</rect>
+		</svg>
+		<svg class="Rectangle_575">
+			<rect id="Rectangle_575" rx="0" ry="0" x="0" y="0" width="62.786" height="0.992">
+			</rect>
+		</svg>
+		<svg class="Rectangle_576">
+			<rect id="Rectangle_576" rx="0" ry="0" x="0" y="0" width="49.049" height="0.755">
+			</rect>
+		</svg>
+		<svg class="Rectangle_577">
+			<rect id="Rectangle_577" rx="0" ry="0" x="0" y="0" width="60.284" height="0.898">
+			</rect>
+		</svg>
+		<svg class="Rectangle_578">
+			<rect id="Rectangle_578" rx="0" ry="0" x="0" y="0" width="60.284" height="0.898">
+			</rect>
+		</svg>
+		<svg class="Rectangle_579">
+			<rect id="Rectangle_579" rx="0" ry="0" x="0" y="0" width="60.284" height="0.803">
+			</rect>
+		</svg>
+		<svg class="Path_787" viewBox="136 65.9 31.009 22.568">
+			<path id="Path_787" d="M 136 65.90000915527344 L 147.9362335205078 86.34042358398438 C 148.1518859863281 87.14801025390625 148.7091674804688 87.82131958007813 149.4622039794922 88.18412780761719 C 150.2152404785156 88.54695129394531 151.0890960693359 88.56315612792969 151.8550720214844 88.22853088378906 C 154.9228210449219 87.09535217285156 167.0094299316406 77.60682678222656 167.0094299316406 77.60682678222656 L 136 65.90000915527344 Z">
+			</path>
+		</svg>
+		<svg class="Path_788" viewBox="134.9 63.4 31.535 21.483">
+			<path id="Path_788" d="M 134.8999938964844 63.40000534057617 L 143.3499298095703 82.75532531738281 C 143.5655822753906 83.56289672851563 144.1228332519531 84.2362060546875 144.8758697509766 84.59901428222656 C 145.62890625 84.96183776855469 146.5027618408203 84.97804260253906 147.2687377929688 84.64341735839844 C 150.3365173339844 83.51025390625 166.4349365234375 76.28805541992188 166.4349365234375 76.28805541992188 L 134.8999938964844 63.40000534057617 Z">
+			</path>
+		</svg>
+	</div>
+	<div id="graph">
+		<svg class="Path_799" viewBox="99.218 388.7 6.945 9.497">
+			<path id="Path_799" d="M 103.9195785522461 388.6999816894531 C 101.296989440918 388.725830078125 99.19212341308594 390.8729858398438 99.21821594238281 393.49560546875 C 99.24433135986328 396.1181945800781 101.3915023803711 398.2230834960938 104.0140914916992 398.1969604492188 C 104.757698059082 398.1942443847656 105.4915084838867 398.0271301269531 106.162971496582 397.70751953125 L 103.8030319213867 393.4485168457031 L 103.9195785522461 388.6999816894531 Z">
+			</path>
+		</svg>
+		<div id="Group_626">
+			<svg class="Path_800" viewBox="154.4 381 5.134 6.552">
+				<path id="Path_800" d="M 154.5631408691406 380.9999694824219 L 154.3999938964844 386.1322021484375 L 159.3305969238281 387.5518493652344 C 159.4800720214844 387.0248718261719 159.5480346679688 386.4781494140625 159.5321960449219 385.9306030273438 C 159.4242553710938 383.2386169433594 157.2558288574219 381.0870056152344 154.5631408691406 380.9999694824219 Z">
+				</path>
+			</svg>
+		</div>
+		<svg class="Path_801" viewBox="152.3 438.2 5.976 5.103">
+			<path id="Path_801" d="M 155.9740905761719 443.3028869628906 L 152.3000030517578 438.1999816894531 L 158.2763671875 440.2625427246094">
+			</path>
+		</svg>
+		<svg class="Path_802" viewBox="152.3 438.2 5.976 5.103">
+			<path id="Path_802" d="M 158.2763671875 440.2625427246094 L 152.3000030517578 438.1999816894531 L 155.9643096923828 443.3028869628906 C 157.0296325683594 442.5516052246094 157.8370361328125 441.4898376464844 158.2763671875 440.2625427246094 Z">
+			</path>
+		</svg>
+	</div>
+	<div id="paper2">
+		<svg class="Path_792" viewBox="266.994 285.057 92.113 105.482">
+			<path id="Path_792" d="M 355.3253173828125 303.3021240234375 L 343.52392578125 299.6204833984375 L 309.6761474609375 289.0933837890625 L 297.874755859375 285.4117431640625 C 295.39794921875 284.423583984375 292.5830688476563 285.5704956054688 291.5020751953125 288.0082397460938 L 287.4421997070313 301.0853881835938 L 267.0947265625 366.5068969726563 C 266.5580444335938 369.1226806640625 268.2178955078125 371.6856689453125 270.824462890625 372.2657470703125 L 270.8709716796875 372.2657470703125 L 328.3230590820313 390.15771484375 L 328.3230590820313 390.2041625976563 C 330.6475219726563 391.10693359375 333.2803344726563 390.1347045898438 334.4601440429688 387.9378662109375 L 334.6012573242188 387.5131225585938 L 354.9470825195313 322.0838623046875 L 359.0069580078125 309.0067138671875 C 359.5369873046875 306.4201049804688 357.900634765625 303.8846435546875 355.3253173828125 303.3021240234375 Z">
+			</path>
+		</svg>
+		<svg class="Rectangle_580">
+			<rect id="Rectangle_580" rx="0" ry="0" x="0" y="0" width="0.849" height="50.796">
+			</rect>
+		</svg>
+		<svg class="Rectangle_581">
+			<rect id="Rectangle_581" rx="0" ry="0" x="0" y="0" width="0.66" height="35.359">
+			</rect>
+		</svg>
+		<svg class="Rectangle_582">
+			<rect id="Rectangle_582" rx="0" ry="0" x="0" y="0" width="0.755" height="35.359">
+			</rect>
+		</svg>
+		<svg class="Rectangle_583">
+			<rect id="Rectangle_583" rx="0" ry="0" x="0" y="0" width="0.803" height="48.153">
+			</rect>
+		</svg>
+		<svg class="Rectangle_584">
+			<rect id="Rectangle_584" rx="0" ry="0" x="0" y="0" width="0.66" height="31.157">
+			</rect>
+		</svg>
+		<svg class="Rectangle_585">
+			<rect id="Rectangle_585" rx="0" ry="0" x="0" y="0" width="0.755" height="40.977">
+			</rect>
+		</svg>
+		<svg class="Rectangle_586">
+			<rect id="Rectangle_586" rx="0" ry="0" x="0" y="0" width="0.708" height="46.595">
+			</rect>
+		</svg>
+		<svg class="Rectangle_587">
+			<rect id="Rectangle_587" rx="0" ry="0" x="0" y="0" width="0.755" height="36.398">
+			</rect>
+		</svg>
+		<svg class="Rectangle_588">
+			<rect id="Rectangle_588" rx="0" ry="0" x="0" y="0" width="0.708" height="44.705">
+			</rect>
+		</svg>
+		<svg class="Rectangle_589">
+			<rect id="Rectangle_589" rx="0" ry="0" x="0" y="0" width="0.708" height="48.153">
+			</rect>
+		</svg>
+		<svg class="Rectangle_590">
+			<rect id="Rectangle_590" rx="0" ry="0" x="0" y="0" width="0.755" height="31.157">
+			</rect>
+		</svg>
+		<svg class="Rectangle_591">
+			<rect id="Rectangle_591" rx="0" ry="0" x="0" y="0" width="0.755" height="31.157">
+			</rect>
+		</svg>
+		<svg class="Rectangle_592">
+			<rect id="Rectangle_592" rx="0" ry="0" x="0" y="0" width="0.803" height="40.977">
+			</rect>
+		</svg>
+		<svg class="Rectangle_593">
+			<rect id="Rectangle_593" rx="0" ry="0" x="0" y="0" width="0.708" height="46.595">
+			</rect>
+		</svg>
+		<svg class="Rectangle_594">
+			<rect id="Rectangle_594" rx="0" ry="0" x="0" y="0" width="0.566" height="36.398">
+			</rect>
+		</svg>
+		<svg class="Rectangle_595">
+			<rect id="Rectangle_595" rx="0" ry="0" x="0" y="0" width="0.66" height="44.705">
+			</rect>
+		</svg>
+		<svg class="Rectangle_596">
+			<rect id="Rectangle_596" rx="0" ry="0" x="0" y="0" width="0.66" height="44.705">
+			</rect>
+		</svg>
+		<svg class="Rectangle_597">
+			<rect id="Rectangle_597" rx="0" ry="0" x="0" y="0" width="0.566" height="44.705">
+			</rect>
+		</svg>
+		<svg class="Path_793" viewBox="421.173 317.8 15.123 21.622">
+			<path id="Path_793" d="M 424.6360168457031 317.7999877929688 L 421.3806457519531 335.0780944824219 C 421.1156311035156 335.6305847167969 421.1038513183594 336.2710266113281 421.3484802246094 336.8328552246094 C 421.5930480957031 337.3946533203125 422.0699157714844 337.8224487304688 422.6548767089844 338.0048217773438 C 424.9212341308594 338.8543090820313 436.2962951660156 339.421630859375 436.2962951660156 339.421630859375 L 424.6360168457031 317.7999877929688 Z">
+			</path>
+		</svg>
+		<svg class="Path_794" viewBox="418.772 315.9 16.304 22.471">
+			<path id="Path_794" d="M 423.6533813476563 315.9000244140625 L 418.9796142578125 330.865234375 C 418.714599609375 331.417724609375 418.7028198242188 332.0581665039063 418.9474487304688 332.6199340820313 C 419.1920776367188 333.1818237304688 419.6688232421875 333.6095581054688 420.2538452148438 333.7919311523438 C 422.5202026367188 334.6414184570313 435.0765380859375 338.3711547851563 435.0765380859375 338.3711547851563 L 423.6533813476563 315.9000244140625 Z">
+			</path>
+		</svg>
+	</div>
+    <!-- END MISSION--->
+	<!--FOOTER---->
+	<div id="footer" class="footer">
+		<svg class="Path_22" viewBox="0 0 1366 265.243">
+			<path id="Path_22" d="M 0 0 L 1366 0 L 1366 265.242919921875 L 0 265.242919921875 L 0 0 Z">
+			</path>
+		</svg>
+		<div id="Address_Japan_108-0075_Tokyo_M">
+			<span>Address: Japan,<br/>〒108-0075 Tokyo, Minato City, Konan, 1 Chome−9−36, A,Re,A Shinagawa, 13F</span>
+		</div>
+		
+		<div id="copyright">
+			<div id="Copyright_2020_All_rights_rese">
+				<span>Copyright ©2020 All rights reserved </span>
+			</div>
+		</div>
+		<div id="contact">
+			<div id="Contact_us">
+				<span>Contact us</span>
+			</div>
+			<div id="social">
+				<div id="Group_16">
+					<div id="world-wide-web">
+						<svg class="Path_53" viewBox="16.146 15 27.994 28.127">
+							<path id="Path_53" d="M 43.32506942749023 33.93043518066406 C 39.71858978271484 41.4932975769043 34.16904449462891 43.1273078918457 30.14252471923828 43.1273078918457 C 25.60824966430664 43.1273078918457 21.33663177490234 40.86311721801758 18.71063995361328 37.16921615600586 C 16.06725692749023 33.44031143188477 15.43690204620361 28.71352005004883 16.9599781036377 24.19675445556641 L 17.24014282226563 23.61909484863281 C 19.37589263916016 18.52460861206055 24.55791091918945 15 30.14252471923828 15 C 34.67679595947266 15 38.94841384887695 17.26419067382813 41.57440948486328 20.95808792114258 C 44.21778869628906 24.68699836730957 44.84814453125 29.41378593444824 43.32506942749023 33.93043518066406 Z">
+							</path>
+						</svg>
+						<svg class="Path_54" viewBox="256 15 13.997 28.127">
+							<path id="Path_54" d="M 269.1825561523438 33.93043518066406 C 265.5760498046875 41.4932975769043 260.0265197753906 43.1273078918457 256 43.1273078918457 L 256 15 C 260.5342712402344 15 264.8058776855469 17.26419067382813 267.431884765625 20.95808792114258 C 270.0752868652344 24.68699836730957 270.7056274414063 29.41378593444824 269.1825561523438 33.93043518066406 Z">
+							</path>
+						</svg>
+						<svg class="Path_55" viewBox="0.254 0 29.851 29.878">
+							<path id="Path_55" d="M 27.32794380187988 6.325667381286621 C 24.52694320678711 2.404184341430664 19.9926700592041 -9.62700070772371e-08 15.17834854125977 -9.62700070772371e-08 C 9.173577308654785 -9.62700070772371e-08 3.6764976978302 3.769759178161621 1.418143630027771 9.319299697875977 L 1.12047266960144 9.932089805603027 C -0.4869270920753479 14.82670879364014 0.1389346271753311 19.46286964416504 3.028752565383911 23.55218315124512 C 5.82975435256958 27.47366523742676 10.36402797698975 29.87796783447266 15.17834854125977 29.87796783447266 C 21.11309432983398 29.87796783447266 26.54014587402344 26.19573974609375 28.86852836608887 20.76862907409668 L 29.13106536865234 20.24343109130859 C 30.88091278076172 15.26460742950439 30.26794815063477 10.48168182373047 27.32794380187988 6.325667381286621 Z M 4.464295864105225 22.53680038452148 C 1.978413820266724 19.03547477722168 1.400637030601501 14.60635852813721 2.836179971694946 10.35225009918213 L 3.063766002655029 9.879512786865234 C 4.481802463531494 6.483226776123047 7.300368785858154 3.851456642150879 10.66158294677734 2.590921640396118 C 8.543338775634766 5.35702657699585 7.265296936035156 10.73733615875244 7.422914981842041 12.48799896240234 C 7.405407905578613 12.54057788848877 7.387843608856201 12.59303951263428 7.387843608856201 12.66312408447266 C 6.932671546936035 18.52778434753418 8.263174057006836 24.18831634521484 10.76662158966064 27.35701751708984 C 8.263233184814453 26.44661331176758 6.039950370788574 24.76019859313965 4.464295864105225 22.53680038452148 Z M 14.30301856994629 27.96968841552734 C 13.69034481048584 27.75960922241211 13.07755470275879 27.29866027832031 12.49977779388428 26.68586730957031 C 10.04890918731689 24.04242897033691 8.700898170471191 18.45781326293945 9.138564109802246 12.8031177520752 L 9.138564109802246 12.64561557769775 C 9.138564109802246 12.59303855895996 9.156070709228516 12.52306938171387 9.156070709228516 12.47049140930176 C 9.663704872131348 7.025931835174561 11.79957103729248 2.731032133102417 14.30301856994629 1.908162832260132 L 14.30301856994629 27.96968841552734 Z M 16.05368041992188 27.95218086242676 L 16.05368041992188 1.908163785934448 C 18.74964332580566 2.801001310348511 21.00811195373535 7.76121187210083 21.27059173583984 13.6784496307373 C 21.51568603515625 19.1405143737793 20.15022850036621 24.26995468139648 17.78677558898926 26.75595283508301 C 17.22656631469727 27.33361434936523 16.64896202087402 27.75960922241211 16.05368041992188 27.95218086242676 Z M 27.52051734924316 19.52571868896484 C 25.55977249145508 23.65728187561035 22.79372978210449 26.20151901245117 19.59007835388184 27.33950805664063 C 21.93590545654297 24.38088798522949 23.26640892028809 19.10556030273438 23.0212574005127 13.60847949981689 C 22.81117630004883 8.95166015625 21.49817848205566 4.936925411224365 19.59001922607422 2.520953416824341 C 22.09346389770508 3.431239128112793 24.31674575805664 5.117769241333008 25.89234161376953 7.34105110168457 C 28.37828254699707 10.84237575531006 28.95606231689453 15.27161026000977 27.52051734924316 19.52571868896484 Z">
+							</path>
+						</svg>
+						<svg class="Path_56" viewBox="256 0 14.926 29.878">
+							<path id="Path_56" d="M 268.1495971679688 6.325667381286621 C 265.3486022949219 2.404184341430664 260.8143310546875 -9.62700070772371e-08 256 -9.62700070772371e-08 L 256 29.87796783447266 C 261.9347534179688 29.87796783447266 267.36181640625 26.19573974609375 269.690185546875 20.76862907409668 L 269.9527282714844 20.24343109130859 C 271.7025756835938 15.26460742950439 271.089599609375 10.48168182373047 268.1495971679688 6.325667381286621 Z M 256.8753356933594 27.95218086242676 L 256.8753356933594 1.908163785934448 C 259.5713195800781 2.801001310348511 261.8297729492188 7.76121187210083 262.0922241210938 13.6784496307373 C 262.3373413085938 19.1405143737793 260.9718933105469 24.26995468139648 258.6083984375 26.75595283508301 C 258.0482177734375 27.33361434936523 257.4706115722656 27.75960922241211 256.8753356933594 27.95218086242676 Z M 268.3421630859375 19.52571868896484 C 266.3814392089844 23.65728187561035 263.6153869628906 26.20151901245117 260.4117126464844 27.33950805664063 C 262.7575378417969 24.38088798522949 264.0880737304688 19.10556030273438 263.8429260253906 13.60847949981689 C 263.6328125 8.95166015625 262.31982421875 4.936925411224365 260.4116821289063 2.520953416824341 C 262.9151000976563 3.431239128112793 265.1383972167969 5.117769241333008 266.7139892578125 7.34105110168457 C 269.199951171875 10.84237575531006 269.7777099609375 15.27161026000977 268.3421630859375 19.52571868896484 Z">
+							</path>
+						</svg>
+						<svg class="Path_57" viewBox="0 151 29.878 12.255">
+							<path id="Path_57" d="M 27.1936206817627 151 L 2.684348583221436 151 C 1.231240749359131 151 0 152.1728820800781 0 153.6259918212891 L 0 160.6286468505859 C 0 162.0816345214844 1.231240749359131 163.254638671875 2.684348583221436 163.254638671875 L 27.1936206817627 163.254638671875 C 28.646728515625 163.254638671875 29.87796783447266 162.0816345214844 29.87796783447266 160.6286468505859 L 29.87796783447266 153.6259918212891 C 29.87796783447266 152.1728820800781 28.646728515625 151 27.1936206817627 151 Z">
+							</path>
+						</svg>
+						<svg class="Path_58" viewBox="256 151 14.939 12.255">
+							<path id="Path_58" d="M 270.93896484375 153.6259918212891 L 270.93896484375 160.6286468505859 C 270.93896484375 162.0816345214844 269.7077331542969 163.254638671875 268.254638671875 163.254638671875 L 256 163.254638671875 L 256 151 L 268.254638671875 151 C 269.7077331542969 151 270.93896484375 152.1728820800781 270.93896484375 153.6259918212891 Z">
+							</path>
+						</svg>
+						<svg class="Path_59" viewBox="180.981 210.981 8.755 5.253">
+							<path id="Path_59" d="M 189.647705078125 212.2429504394531 L 187.8970336914063 215.7442626953125 C 187.7394866943359 216.0419311523438 187.4418640136719 216.2345123291016 187.1092529296875 216.2345123291016 C 186.7766265869141 216.2345123291016 186.47900390625 216.0419311523438 186.3214416503906 215.7442626953125 L 185.3585815429688 213.818603515625 L 184.3957214355469 215.7442626953125 C 184.0981597900391 216.3395538330078 183.11767578125 216.3395538330078 182.820068359375 215.7442626953125 L 181.0693969726563 212.2429504394531 C 180.8593292236328 211.8227844238281 181.0344390869141 211.2976379394531 181.4721069335938 211.0700531005859 C 181.8922729492188 210.8599700927734 182.4174194335938 211.0349731445313 182.6449890136719 211.4726409912109 L 183.6079254150391 213.3984375 L 184.5707855224609 211.4726409912109 C 184.7283935546875 211.1750946044922 185.0435333251953 211.0174713134766 185.3585815429688 211.0174713134766 C 185.6736450195313 211.0174713134766 185.9888153076172 211.1750946044922 186.1463775634766 211.4726409912109 L 187.1092529296875 213.3984375 L 188.0721130371094 211.4726409912109 C 188.2996826171875 211.0349731445313 188.8248901367188 210.8599700927734 189.2449951171875 211.0700531005859 C 189.6826629638672 211.2976379394531 189.8577880859375 211.8227844238281 189.647705078125 212.2429504394531 Z">
+							</path>
+						</svg>
+						<svg class="Path_60" viewBox="330.542 211.011 8.78 5.251">
+							<path id="Path_60" d="M 336.6959228515625 216.2623291015625 C 336.3642272949219 216.2623291015625 336.0616760253906 216.0751190185547 335.9129333496094 215.7784881591797 L 334.9452819824219 213.8432006835938 L 333.9776306152344 215.7784881591797 C 333.6801147460938 216.3717346191406 332.7090759277344 216.3717346191406 332.4115905761719 215.7784881591797 L 330.7344665527344 212.4233551025391 C 330.6259155273438 212.2900085449219 330.5557861328125 212.1250457763672 330.5438232421875 211.9437866210938 C 330.5130615234375 211.4616546630859 330.8523864746094 211.0471038818359 331.33447265625 211.0154724121094 C 331.7003479003906 211.0069427490234 332.0696105957031 211.1796264648438 332.2268981933594 211.4941711425781 L 333.1946105957031 213.4294738769531 L 334.1622619628906 211.4941711425781 C 334.459716796875 210.9009246826172 335.4307861328125 210.9009246826172 335.728271484375 211.4941711425781 L 336.6959228515625 213.4294738769531 L 337.66357421875 211.4941711425781 C 337.8807373046875 211.0607757568359 338.4064025878906 210.8889617919922 338.8381042480469 211.1026611328125 C 339.2706298828125 211.3189239501953 339.4458618164063 211.8446502685547 339.2295837402344 212.2771759033203 L 337.4789428710938 215.7784881591797 C 337.3302001953125 216.0751190185547 337.0276184082031 216.2623291015625 336.6959228515625 216.2623291015625 Z">
+							</path>
+						</svg>
+						<svg class="Path_61" viewBox="30.994 211.011 8.78 5.251">
+							<path id="Path_61" d="M 38.92909622192383 211.0120391845703 C 38.58462524414063 211.0085754394531 38.24698257446289 211.1795806884766 38.08965301513672 211.4941711425781 L 37.12200546264648 213.4294738769531 L 36.15435791015625 211.4941711425781 C 35.83906173706055 210.86572265625 34.90018081665039 210.8704681396484 34.58832931518555 211.4941711425781 L 33.62068176269531 213.4294738769531 L 32.65303039550781 211.4941711425781 C 32.43589019775391 211.0607757568359 31.90935134887695 210.8889617919922 31.47851371765137 211.1026611328125 C 31.04598236083984 211.3189239501953 30.87074279785156 211.8446502685547 31.08700752258301 212.2771759033203 L 32.83766555786133 215.7784881591797 C 32.98641204833984 216.0751190185547 33.28899002075195 216.2623291015625 33.62068176269531 216.2623291015625 C 33.95237350463867 216.2623291015625 34.25494766235352 216.0751190185547 34.40369415283203 215.7784881591797 L 35.37134170532227 213.8432006835938 L 36.3389892578125 215.7784881591797 C 36.48773956298828 216.0751190185547 36.79031372070313 216.2623291015625 37.12200546264648 216.2623291015625 C 37.45370101928711 216.2623291015625 37.75627136230469 216.0751190185547 37.9050178527832 215.7784881591797 L 39.5539665222168 212.4805908203125 C 39.67879104614258 212.3386688232422 39.75914764404297 212.1514739990234 39.77279663085938 211.9437866210938 C 39.80355072021484 211.4616546630859 39.41122817993164 211.0436401367188 38.92909622192383 211.0120391845703 Z">
+							</path>
+						</svg>
+						<svg class="Path_62" viewBox="256 210.981 4.378 5.253">
+							<path id="Path_62" d="M 260.2891235351563 212.2429504394531 L 258.5384521484375 215.7442626953125 C 258.3808898925781 216.0419311523438 258.0832824707031 216.2345123291016 257.7506408691406 216.2345123291016 C 257.4180297851563 216.2345123291016 257.1204223632813 216.0419311523438 256.9628601074219 215.7442626953125 L 256 213.818603515625 L 256 211.0174865722656 C 256.3151245117188 211.0174865722656 256.6302490234375 211.1750946044922 256.7878112792969 211.4726409912109 L 257.7506408691406 213.3984375 L 258.7135314941406 211.4726409912109 C 258.9411010742188 211.0349731445313 259.46630859375 210.8599700927734 259.8864135742188 211.0700531005859 C 260.3240966796875 211.2976379394531 260.4992065429688 211.8227844238281 260.2891235351563 212.2429504394531 Z">
+							</path>
+						</svg>
+					</div>
+					<div id="facebook_2">
+						<svg class="Path_63" viewBox="0 0 32.743 29.878">
+							<path id="Path_63" d="M 32.74343872070313 14.93898391723633 C 32.74343872070313 23.1896800994873 25.41370391845703 29.87796783447266 16.37171936035156 29.87796783447266 C 7.329734802246094 29.87796783447266 0 23.1896800994873 0 14.93898391723633 C 0 6.688288688659668 7.329733848571777 0 16.37171936035156 0 C 25.41370391845703 0 32.74343872070313 6.688287734985352 32.74343872070313 14.93898391723633 Z M 32.74343872070313 14.93898391723633">
+							</path>
+						</svg>
+						<svg class="Path_64" viewBox="144.262 75.313 23.518 25.468">
+							<path id="Path_64" d="M 152.1262512207031 100.7803955078125 C 160.834716796875 100.4373245239258 167.779541015625 93.88740539550781 167.779541015625 85.85671234130859 C 167.779541015625 85.79857635498047 167.7777709960938 85.74067687988281 167.7770385742188 85.68254852294922 L 156.4128265380859 75.3126220703125 L 144.2619323730469 86.90164947509766 L 151.0130920410156 93.06199645996094 L 147.9001770019531 96.92417144775391 L 152.1262512207031 100.7803955078125 Z M 152.1262512207031 100.7803955078125">
+							</path>
+						</svg>
+						<svg class="Path_65" viewBox="144.258 71.132 12.151 21.856">
+							<path id="Path_65" d="M 156.4092102050781 71.37641906738281 L 156.4092102050781 74.75921630859375 C 156.4092102050781 74.75921630859375 152.1529083251953 74.19549560546875 152.1529083251953 76.70112609863281 L 152.1529083251953 79.20675659179688 L 155.9972686767578 79.20675659179688 L 155.5168762207031 83.02789306640625 L 152.1529083251953 83.02789306640625 L 152.1529083251953 92.98799896240234 L 147.8966064453125 92.98799896240234 L 147.8966064453125 83.02789306640625 L 144.2580718994141 82.9652099609375 L 144.2580718994141 79.20675659179688 L 147.827880859375 79.20675659179688 L 147.827880859375 76.32523345947266 C 147.827880859375 76.32523345947266 147.5923156738281 72.03861999511719 152.2215881347656 71.25126647949219 C 154.1438903808594 70.92416381835938 156.4092102050781 71.37641906738281 156.4092102050781 71.37641906738281 Z M 156.4092102050781 71.37641906738281">
+							</path>
+						</svg>
+						<svg class="Path_66" viewBox="255.645 71.132 5.028 21.856">
+							<path id="Path_66" d="M 260.6724853515625 74.75893402099609 L 260.6724853515625 71.37614440917969 C 260.6724853515625 71.37614440917969 258.4071960449219 70.92388916015625 256.4848937988281 71.25099945068359 C 256.1846008300781 71.30206298828125 255.9053039550781 71.36817169189453 255.6447448730469 71.44634246826172 L 255.6447448730469 92.98772430419922 L 256.4161682128906 92.98772430419922 L 256.4161682128906 83.02762603759766 L 259.7799072265625 83.02762603759766 L 260.2605590820313 79.20647430419922 L 256.4161682128906 79.20647430419922 C 256.4161682128906 79.20647430419922 256.4161682128906 79.20647430419922 256.4161682128906 76.70084381103516 C 256.4161682128906 74.19521331787109 260.6724853515625 74.75893402099609 260.6724853515625 74.75893402099609 Z M 260.6724853515625 74.75893402099609">
+							</path>
+						</svg>
+					</div>
+					<div id="twitter_1">
+						<svg class="Path_67" viewBox="0 0 31.474 31.474">
+							<path id="Path_67" d="M 31.47418212890625 15.73709106445313 C 31.47418212890625 24.42857360839844 24.42857360839844 31.47418212890625 15.73709106445313 31.47418212890625 C 7.045606136322021 31.47418212890625 0 24.42857360839844 0 15.73709106445313 C 0 7.045606136322021 7.045606136322021 0 15.73709106445313 0 C 24.42857360839844 0 31.47418212890625 7.045606136322021 31.47418212890625 15.73709106445313 Z M 31.47418212890625 15.73709106445313">
+							</path>
+						</svg>
+						<svg class="Path_68" viewBox="0 0 31.474 31.474">
+							<path id="Path_68" d="M 31.47418212890625 15.73709106445313 C 31.47418212890625 24.42857360839844 24.42857360839844 31.47418212890625 15.73709106445313 31.47418212890625 C 7.045606136322021 31.47418212890625 0 24.42857360839844 0 15.73709106445313 C 0 7.045606136322021 7.045606136322021 0 15.73709106445313 0 C 24.42857360839844 0 31.47418212890625 7.045606136322021 31.47418212890625 15.73709106445313 Z M 31.47418212890625 15.73709106445313">
+							</path>
+						</svg>
+						<svg class="Path_69" viewBox="83.676 121.125 26.33 24.028">
+							<path id="Path_69" d="M 110.005973815918 129.4161682128906 C 110.005973815918 128.4556579589844 109.9195251464844 127.5155410766602 109.7547912597656 126.6025772094727 L 104.277458190918 121.125 L 95.95265960693359 129.7124633789063 L 85.60693359375 129.7849884033203 L 89.16660308837891 133.3449096679688 L 87.53301239013672 133.3643493652344 L 90.01065826416016 135.8419952392578 L 88.95361328125 136.9324188232422 L 83.67558288574219 136.072998046875 L 92.67608642578125 145.0735168457031 C 93.19981384277344 145.1260986328125 93.73121643066406 145.1532287597656 94.26886749267578 145.1532287597656 C 102.9603576660156 145.1532287597656 110.0059509277344 138.1076202392578 110.0059509277344 129.4161376953125 Z M 110.005973815918 129.4161682128906">
+							</path>
+						</svg>
+						<svg class="Path_70" viewBox="83.68 115.953 21.186 17.218">
+							<path id="Path_70" d="M 90.34266662597656 133.17138671875 C 98.33802795410156 133.17138671875 102.7102966308594 126.5474090576172 102.7102966308594 120.8037414550781 C 102.7102966308594 120.615478515625 102.7064514160156 120.4284133911133 102.6977996826172 120.2420806884766 C 103.5464172363281 119.6283111572266 104.2841033935547 118.8627777099609 104.8661804199219 117.9913482666016 C 104.0871887207031 118.3373718261719 103.2491455078125 118.5705337524414 102.3697814941406 118.6754760742188 C 103.2673950195313 118.1375885009766 103.9563140869141 117.2860870361328 104.2814636230469 116.2710647583008 C 103.4412536621094 116.7690963745117 102.511474609375 117.1309661865234 101.5214233398438 117.3261947631836 C 100.72802734375 116.4814147949219 99.59846496582031 115.9528884887695 98.34858703613281 115.9528884887695 C 95.94778442382813 115.9528884887695 94.00105285644531 117.8996276855469 94.00105285644531 120.2992324829102 C 94.00105285644531 120.6404495239258 94.03923034667969 120.9720764160156 94.11367797851563 121.2904815673828 C 90.50141906738281 121.1087036132813 87.2978515625 119.3788146972656 85.15423583984375 116.7489242553711 C 84.78057861328125 117.3912658691406 84.565673828125 118.1375885009766 84.565673828125 118.9336166381836 C 84.565673828125 120.4416275024414 85.3331298828125 121.7731399536133 86.49990844726563 122.551887512207 C 85.78695678710938 122.530029296875 85.11700439453125 122.3338470458984 84.53134155273438 122.0079879760742 C 84.53036499023438 122.026237487793 84.53036499023438 122.0444869995117 84.53036499023438 122.0634536743164 C 84.53036499023438 124.1689071655273 86.02877807617188 125.9264068603516 88.01751708984375 126.3247756958008 C 87.65252685546875 126.424201965332 87.26832580566406 126.4777450561523 86.87162780761719 126.4777450561523 C 86.59164428710938 126.4777450561523 86.3193359375 126.4498977661133 86.05447387695313 126.3994674682617 C 86.60797119140625 128.1262359619141 88.21250915527344 129.3830718994141 90.11529541015625 129.4186096191406 C 88.62721252441406 130.5844421386719 86.75325012207031 131.2791290283203 84.71672058105469 131.2791290283203 C 84.36611938476563 131.2791290283203 84.02009582519531 131.2592010498047 83.67984008789063 131.2188568115234 C 85.603515625 132.4516754150391 87.88761901855469 133.1713562011719 90.34271240234375 133.1713562011719">
+							</path>
+						</svg>
+						<svg class="Path_71" viewBox="255.644 115.953 10.615 16.634">
+							<path id="Path_71" d="M 266.2593688964844 117.9913711547852 C 265.4804077148438 118.33740234375 264.6423645019531 118.5703277587891 263.7630004882813 118.6754989624023 C 264.6606140136719 118.1376113891602 265.3495178222656 117.2858734130859 265.6746826171875 116.2710876464844 C 264.83447265625 116.7691116333008 263.9046936035156 117.130989074707 262.9146118164063 117.3259735107422 C 262.1212463378906 116.4814376831055 260.99169921875 115.9529266357422 259.7417907714844 115.9529266357422 C 257.8507995605469 115.9529266357422 256.2424011230469 117.1607666015625 255.6442565917969 118.8462295532227 L 255.6442565917969 132.5868835449219 C 261.1441650390625 130.8478393554688 264.1034851074219 125.5285339355469 264.1034851074219 120.8037261962891 C 264.1034851074219 120.6154556274414 264.0996398925781 120.4283981323242 264.0909729003906 120.2420654296875 C 264.9396057128906 119.628288269043 265.6773071289063 118.8627624511719 266.2593688964844 117.991325378418 Z M 266.2593688964844 117.9913711547852">
+							</path>
+						</svg>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
